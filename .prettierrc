@@ -1,0 +1,12 @@
+{
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 120,
+  "endOfLine": "lf",
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "alwaysParens": "always",
+  "eslintIntegration": true,
+  "jsxSingleQuote": true
+}

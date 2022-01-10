@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+set -e
+
+
+function git_branch_name() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
+}
+
+function e() {
+    echo "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+    printf "┃$(tput bold) %-40s $(tput sgr0)┃\n" "$*"
+    echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+    "$@"
+}
+
+CURRENT_BRANCH=$(git_branch_name)
+
+if [[ $CURRENT_BRANCH = feature/* ]]; then
+  e git stash
+  e git checkout main
+  e git pull
+  e git checkout "$CURRENT_BRANCH"
+  e git merge main
+  e git stash pop || true
+elif [[ $CURRENT_BRANCH = main ]]; then
+  e git stash
+  e git pull
+  e git stash pop || true
+fi
