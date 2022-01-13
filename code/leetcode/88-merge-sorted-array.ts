@@ -1,7 +1,11 @@
 // code/leetcode/88-merge-sorted-array.ts 合并两个有序数组 https://leetcode-cn.com/problems/merge-sorted-array/
 
 /**
- Do not return anything, modify nums1 in-place instead.
+ * Do not return anything, modify nums1 in-place instead.
+ * @param {number[]} nums1
+ * @param {number} m
+ * @param {number[]} nums2
+ * @param {number} n
  */
 export function merge(nums1: number[], m: number, nums2: number[], n: number): void {
   let i = m - 1;

@@ -18,9 +18,11 @@
 
 ### easy
 
-- [x] 1、两数之和
+- [x] 1、[两数之和](https://leetcode-cn.com/problems/two-sum/)
 
-- [x] 88、合并两个有序数组
+- [x] 88、[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+
+- [x] 680、[验证回文字符串 II](https://leetcode-cn.com/problems/valid-palindrome-ii/)
 
 ### medium
 

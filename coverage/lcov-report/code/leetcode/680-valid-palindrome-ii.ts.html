@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for code/leetcode/1-two-sum.ts</title>
+    <title>Code coverage report for code/leetcode/680-valid-palindrome-ii.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">code/leetcode</a> 1-two-sum.ts</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">code/leetcode</a> 680-valid-palindrome-ii.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">82.35% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>14/14</span>
+                <span class='fraction'>14/17</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">80% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>4/5</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">82.35% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>11/11</span>
+                <span class='fraction'>14/17</span>
             </div>
         
             
@@ -94,22 +94,11 @@
 <a name='L29'></a><a href='#L29'>29</a>
 <a name='L30'></a><a href='#L30'>30</a>
 <a name='L31'></a><a href='#L31'>31</a>
-<a name='L32'></a><a href='#L32'>32</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -119,42 +108,65 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// code/leetcode/1-two-sum.ts 两数之和 https://leetcode-cn.com/problems/two-sum/
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// code/leetcode/680-valid-palindrome-ii.ts
+&nbsp;
 /**
- * O(N^2)
- * @param {number[]} nums
- * @param {number} target
- * @returns {number[] | undefined}
+ *
+ * @param {string} s
+ * @return {boolean}
  */
-export function twoSum1(nums: number[], target: number): number[] | undefined {
-  for (let i = 0; i &lt; nums.length; i++) {
-    for (let j = i + 1; j &lt; nums.length; j++) {
-      if (nums[i] + nums[j] === target) {
-        return [i, j];
+export function validPalindrome(s: string): boolean {
+  let i = 0;
+  let j = s.length - 1;
+  while (i &lt; j &amp;&amp; s[i] === s[j]) {
+    i++;
+    j--;
+  }
+&nbsp;
+  if (isPalindrome(i + 1, j)) {
+    return true;
+  }
+&nbsp;
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (isPalindrome(i, j - 1)) {
+<span class="cstat-no" title="statement not covered" >    return true;</span>
+  }
+&nbsp;
+  function isPalindrome(left: number, right: number) {
+    while (left &lt; right) {
+      if (s[left] !== s[right]) {
+        return false;
       }
+<span class="cstat-no" title="statement not covered" >      left++;</span>
+<span class="cstat-no" title="statement not covered" >      right--;</span>
     }
+    return true;
   }
-}
-/**
- * O(N)
- * @param {number[]} nums
- * @param {number} target
- * @returns {number[] | undefined}
- */
-export function twoSum2(nums: number[], target: number): number[] | undefined {
-  const map: any = {};
-  for (let i = 0; i &lt; nums.length; i++) {
-    if (map[target - nums[i]] !== undefined) {
-      return [map[target - nums[i]], i];
-    }
-    map[nums[i]] = i;
-  }
+  return false;
 }
 &nbsp;</pre></td></tr></table></pre>
 

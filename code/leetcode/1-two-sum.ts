@@ -1,5 +1,10 @@
 // code/leetcode/1-two-sum.ts 两数之和 https://leetcode-cn.com/problems/two-sum/
-// O(N^2)
+/**
+ * O(N^2)
+ * @param {number[]} nums
+ * @param {number} target
+ * @returns {number[] | undefined}
+ */
 export function twoSum1(nums: number[], target: number): number[] | undefined {
   for (let i = 0; i < nums.length; i++) {
     for (let j = i + 1; j < nums.length; j++) {
@@ -9,8 +14,12 @@ export function twoSum1(nums: number[], target: number): number[] | undefined {
     }
   }
 }
-
-// O(N)
+/**
+ * O(N)
+ * @param {number[]} nums
+ * @param {number} target
+ * @returns {number[] | undefined}
+ */
 export function twoSum2(nums: number[], target: number): number[] | undefined {
   const map: any = {};
   for (let i = 0; i < nums.length; i++) {
