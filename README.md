@@ -30,6 +30,8 @@
 
 - [x] 211、[添加与搜索单词](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
 
+- [x] 8、[字符串转换整数 aoti](https://leetcode-cn.com/problems/string-to-integer-atoi/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
+
 ## 了解更多
 
 欢迎关注鄙人的公众号江涛学编程，一起学习，共同成长:smile:
