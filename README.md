@@ -18,15 +18,17 @@
 
 ### easy
 
-- [x] 1、[两数之和](https://leetcode-cn.com/problems/two-sum/)
+- [x] 1、[两数之和](https://leetcode-cn.com/problems/two-sum/) ![数组](https://img.shields.io/badge/-数组-blue) ![加法转减法](https://img.shields.io/badge/-加法转减法-blue)
 
-- [x] 88、[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+- [x] 88、[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) ![数组](https://img.shields.io/badge/-数组-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
 
-- [x] 680、[验证回文字符串 II](https://leetcode-cn.com/problems/valid-palindrome-ii/)
+- [x] 680、[验证回文字符串 II](https://leetcode-cn.com/problems/valid-palindrome-ii/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
 
 ### medium
 
-- [x] 15、[三数之和](https://leetcode-cn.com/problems/3sum/)
+- [x] 15、[三数之和](https://leetcode-cn.com/problems/3sum/) ![数组](https://img.shields.io/badge/-数组-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
+
+- [x] 211、[添加与搜索单词](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
 
 ## 了解更多
 
