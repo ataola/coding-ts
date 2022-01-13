@@ -22,6 +22,10 @@
 
 - [x] 88、合并两个有序数组
 
+### medium
+
+- [x] 15、[三数之和](https://leetcode-cn.com/problems/3sum/)
+
 ## 了解更多
 
 欢迎关注鄙人的公众号江涛学编程，一起学习，共同成长:smile:

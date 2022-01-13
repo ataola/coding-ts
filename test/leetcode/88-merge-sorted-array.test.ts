@@ -1,6 +1,6 @@
 // test/leetcode/88-merge-sorted-array.test.ts
 
-import { merge } from '../../code/leetcode/88-merge-sorted-array'
+import { merge } from '../../code/leetcode/88-merge-sorted-array';
 
 describe('test function merge:', () => {
   test('test case nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3', () => {

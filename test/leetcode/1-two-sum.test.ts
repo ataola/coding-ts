@@ -1,5 +1,5 @@
 // test/leetcode/1.two-sum.test.ts
-import { twoSum1, twoSum2 } from '../../code/leetcode/1-two-sum'
+import { twoSum1, twoSum2 } from '../../code/leetcode/1-two-sum';
 
 
 describe('test function twoSum1:', () => {
