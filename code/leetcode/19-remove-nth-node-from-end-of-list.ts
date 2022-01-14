@@ -1,11 +1,11 @@
 // code/leetcode/19-remove-nth-node-from-end-of-list.ts
-import ListNode from "../base/list-node";
+import ListNode from '../base/list-node';
 
 /**
- * 
- * @param {ListNode | null} head 
- * @param {number} n 
- * @returns {ListNode | null}
+ *
+ * @param {ListNode | null} head
+ * @param {number} n
+ * @return {ListNode | null}
  */
 export function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   const dummy = new ListNode();
@@ -15,7 +15,7 @@ export function removeNthFromEnd(head: ListNode | null, n: number): ListNode | n
 
   while (n) {
     fast = fast.next as ListNode;
-    n--
+    n--;
   }
 
   while (fast.next) {
@@ -26,4 +26,4 @@ export function removeNthFromEnd(head: ListNode | null, n: number): ListNode | n
   slow.next = (slow.next as ListNode).next;
 
   return dummy.next;
-};
+}

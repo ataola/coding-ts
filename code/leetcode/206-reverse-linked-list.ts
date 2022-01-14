@@ -1,10 +1,10 @@
 // code/leetcode/206-reverse-linked-list.ts
-import ListNode from "../base/list-node";
+import ListNode from '../base/list-node';
 
 /**
- * 
+ *
  * @param {ListNode | null} head
- * @returns { ListNode | null} 
+ * @return { ListNode | null}
  */
 
 export function reverseList(head: ListNode | null): ListNode | null {
@@ -17,4 +17,4 @@ export function reverseList(head: ListNode | null): ListNode | null {
     cur = next;
   }
   return pre;
-};
+}

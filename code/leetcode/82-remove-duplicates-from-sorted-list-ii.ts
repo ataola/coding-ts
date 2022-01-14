@@ -3,7 +3,7 @@ import ListNode from '../base/list-node';
 /**
  *
  * @param {ListNode | null} head
- * @returns {ListNode | null}
+ * @return {ListNode | null}
  */
 export function deleteDuplicates(head: ListNode | null): ListNode | null {
   if (!head || !head.next) {

@@ -24,7 +24,7 @@ export default class WordDictionary {
   /**
    *
    * @param {string} word
-   * @returns { boolean }
+   * @return { boolean }
    */
   search(word: string): boolean {
     if (!this.words[word.length]) {

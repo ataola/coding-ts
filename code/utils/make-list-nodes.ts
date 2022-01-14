@@ -4,7 +4,7 @@ import ListNode from '../base/list-node';
 /**
  *
  * @param {number[]} arr
- * @returns {ListNode}
+ * @return {ListNode}
  */
 export default function makeListNodes(arr: number[]): ListNode {
   if (arr.length === 0) {

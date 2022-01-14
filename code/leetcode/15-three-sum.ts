@@ -3,7 +3,7 @@
 /**
  *
  * @param {number[]} nums
- * @returns {number[][]}
+ * @return {number[][]}
  */
 export function threeSum(nums: number[]): number[][] {
   const res: number[][] = [];

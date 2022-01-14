@@ -6,7 +6,7 @@ import ListNode from '../base/list-node';
  *
  * @param {ListNode} list1
  * @param {ListNode} list2
- * @returns {ListNode | null }
+ * @return {ListNode | null }
  */
 export function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
   const head = new ListNode();
