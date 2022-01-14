@@ -26,6 +26,8 @@
 
 - [x] 88、[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) ![数组](https://img.shields.io/badge/-数组-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
 
+- [x] 206、[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) ![链表](https://img.shields.io/badge/-链表-blue)
+
 - [x] 680、[验证回文字符串 II](https://leetcode-cn.com/problems/valid-palindrome-ii/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
 
 ### medium

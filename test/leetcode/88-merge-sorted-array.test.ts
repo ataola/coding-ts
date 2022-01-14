@@ -1,5 +1,4 @@
 // test/leetcode/88-merge-sorted-array.test.ts
-
 import { merge } from '../../code/leetcode/88-merge-sorted-array';
 
 describe('test function merge:', () => {

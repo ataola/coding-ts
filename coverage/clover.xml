@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642160985500" clover="3.2.0">
-  <project timestamp="1642160985500" name="All files">
-    <metrics statements="164" coveredstatements="153" conditionals="64" coveredconditionals="54" methods="19" coveredmethods="19" elements="247" coveredelements="226" complexity="0" loc="164" ncloc="164" packages="4" files="13" classes="13"/>
+<coverage generated="1642165864025" clover="3.2.0">
+  <project timestamp="1642165864025" name="All files">
+    <metrics statements="173" coveredstatements="163" conditionals="64" coveredconditionals="55" methods="20" coveredmethods="20" elements="257" coveredelements="238" complexity="0" loc="173" ncloc="173" packages="4" files="14" classes="14"/>
     <package name="code">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="sum.ts" path="D:\ataola\github\ataola\coding-ts\code\sum.ts">
@@ -14,13 +14,13 @@
       <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
       <file name="list-node.ts" path="D:\ataola\github\ataola\coding-ts\code\base\list-node.ts">
         <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="8" count="81" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="81" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="8" count="97" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="97" type="cond" truecount="1" falsecount="1"/>
       </file>
     </package>
     <package name="code.leetcode">
-      <metrics statements="143" coveredstatements="133" conditionals="55" coveredconditionals="47" methods="16" coveredmethods="16"/>
+      <metrics statements="152" coveredstatements="142" conditionals="55" coveredconditionals="47" methods="17" coveredmethods="17"/>
       <file name="1-two-sum.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\1-two-sum.ts">
         <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
@@ -81,6 +81,18 @@
         <line num="23" count="4" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
         <line num="28" count="3" type="stmt"/>
+      </file>
+      <file name="206-reverse-linked-list.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\206-reverse-linked-list.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
       </file>
       <file name="21-merge-two-sorted-lists.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\21-merge-two-sorted-lists.ts">
         <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
@@ -196,25 +208,25 @@
       </file>
     </package>
     <package name="code.utils">
-      <metrics statements="16" coveredstatements="15" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
       <file name="make-list-nodes.ts" path="D:\ataola\github\ataola\coding-ts\code\utils\make-list-nodes.ts">
-        <metrics statements="16" coveredstatements="15" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="10" type="cond" truecount="1" falsecount="1"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="10" type="cond" truecount="2" falsecount="0"/>
+        <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="13" count="2" type="stmt"/>
-        <line num="14" count="8" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="20" count="6" type="stmt"/>
-        <line num="21" count="6" type="stmt"/>
-        <line num="22" count="6" type="stmt"/>
-        <line num="23" count="23" type="stmt"/>
-        <line num="24" count="23" type="stmt"/>
-        <line num="26" count="6" type="stmt"/>
+        <line num="14" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="23" count="31" type="stmt"/>
+        <line num="24" count="31" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
       </file>
     </package>
   </project>
