@@ -3,7 +3,7 @@
 /**
  *
  * @param {string} s
- * @return {boolean}
+ * @returns {boolean}
  */
 export function validPalindrome(s: string): boolean {
   let i = 0;

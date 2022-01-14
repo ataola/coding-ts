@@ -26,6 +26,8 @@
 
 - [x] 21、[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) ![链表](https://img.shields.io/badge/-链表-blue)
 
+- [x] 83、[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) ![链表](https://img.shields.io/badge/-链表-blue)
+
 ### medium
 
 - [x] 15、[三数之和](https://leetcode-cn.com/problems/3sum/) ![数组](https://img.shields.io/badge/-数组-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
@@ -33,6 +35,8 @@
 - [x] 211、[添加与搜索单词](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
 
 - [x] 8、[字符串转换整数 aoti](https://leetcode-cn.com/problems/string-to-integer-atoi/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
+
+- [x] 82、[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) ![链表](https://img.shields.io/badge/-链表-blue)
 
 ## 了解更多
 

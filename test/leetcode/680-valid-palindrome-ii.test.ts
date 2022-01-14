@@ -16,4 +16,4 @@ describe('test function validPalindrome:', () => {
     const expected = validPalindrome('abc');
     expect(expected).toBe(false);
   });
-})
+});

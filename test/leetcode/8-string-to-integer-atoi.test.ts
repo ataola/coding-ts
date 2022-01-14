@@ -2,7 +2,6 @@
 
 import { myAtoi } from '../../code/leetcode/8-string-to-integer-atoi';
 
-
 describe('test function myAtoi: ', () => {
   test('test case s = "42"', () => {
     const res = myAtoi('42');

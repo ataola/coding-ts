@@ -1,7 +1,6 @@
 // test/leetcode/1.two-sum.test.ts
 import { twoSum1, twoSum2 } from '../../code/leetcode/1-two-sum';
 
-
 describe('test function twoSum1:', () => {
   test('test case nums = [2,7,11,15], target = 9', () => {
     const data = twoSum1([2, 7, 11, 15], 9);
@@ -19,8 +18,6 @@ describe('test function twoSum1:', () => {
   });
 });
 
-
-
 describe('test function twoSum2:', () => {
   test('test case nums = [2,7,11,15], target = 9', () => {
     const data = twoSum2([2, 7, 11, 15], 9);
@@ -37,4 +34,3 @@ describe('test function twoSum2:', () => {
     expect(data).toEqual([0, 1]);
   });
 });
-

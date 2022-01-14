@@ -7,16 +7,16 @@ describe('test function mergeTwoLists:', () => {
   test('test case l1 = [], l2 = []', () => {
     const l1 = new ListNode();
     const l2 = new ListNode();
-    const expected = new ListNode()
-    expected.next = new ListNode()
+    const expected = new ListNode();
+    expected.next = new ListNode();
     expect(mergeTwoLists(l1, l2)).toEqual(expected);
   });
 
   test('test case l1 = [], l2 = [0]', () => {
     const l1 = new ListNode();
     const l2 = new ListNode(0);
-    const expected = new ListNode()
-    expected.next = new ListNode(0)
+    const expected = new ListNode();
+    expected.next = new ListNode(0);
     expect(mergeTwoLists(l1, l2)).toEqual(expected);
   });
 
@@ -34,7 +34,7 @@ describe('test function mergeTwoLists:', () => {
     l2.next = l22;
     l22.next = l23;
 
-    const expected = new ListNode(1)
+    const expected = new ListNode(1);
     const n1 = new ListNode(1);
     const n2 = new ListNode(2);
     const n3 = new ListNode(3);

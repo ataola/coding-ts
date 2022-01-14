@@ -17,7 +17,8 @@
     "test:exportJson": "jest --json --outputFile=./export/reporter.json",
     "test:coverage": "jest --coverage",
     "test:watchAll": "jest --watchAll",
-    "pretty": "prettier --config .prettierrc \"code/**/*.ts\" --write",
+    "pretty:code": "prettier --config .prettierrc \"code/**/*.ts\" --write",
+    "pretty:test": "prettier --config .prettierrc \"test/**/*.ts\" --write",
     "pretty-watch": "onchange \"code/**/*.ts\" -- prettier --write {{changed}}",
     "git:pull": "pull",
     "git:push": "push"

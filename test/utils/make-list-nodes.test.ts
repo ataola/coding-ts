@@ -4,7 +4,7 @@ import makeListNodes from '../../code/utils/make-list-nodes';
 
 describe('test function makeListNodes:', () => {
   test('test case arr = [1, 2, 3, 4, 5]', () => {
-    const expected = new ListNode(1)
+    const expected = new ListNode(1);
     const l1 = new ListNode(2);
     const l2 = new ListNode(3);
     const l3 = new ListNode(4);

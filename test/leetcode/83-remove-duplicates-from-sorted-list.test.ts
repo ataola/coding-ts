@@ -10,8 +10,8 @@ describe('test function deleteDuplicates:', () => {
     head.next = h2;
     h2.next = h3;
 
-    const expected = new ListNode(1)
-    expected.next = new ListNode(2)
+    const expected = new ListNode(1);
+    expected.next = new ListNode(2);
     expect(deleteDuplicates(head)).toEqual(expected);
   });
 
@@ -26,9 +26,9 @@ describe('test function deleteDuplicates:', () => {
     h3.next = h4;
     h4.next = h5;
 
-    const expected = new ListNode(1)
-    expected.next = new ListNode(2)
-    expected.next.next = new ListNode(3)
+    const expected = new ListNode(1);
+    expected.next = new ListNode(2);
+    expected.next.next = new ListNode(3);
     expect(deleteDuplicates(head)).toEqual(expected);
   });
 });

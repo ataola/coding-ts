@@ -3,7 +3,7 @@
 /**
  *
  * @param {string} s
- * @return { number }
+ * @returns { number }
  */
 export function myAtoi(s: string): number {
   const reg = /\s*([-\+]?[0-9]*).*/;
