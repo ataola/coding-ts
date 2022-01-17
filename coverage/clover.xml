@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642416181569" clover="3.2.0">
-  <project timestamp="1642416181569" name="All files">
-    <metrics statements="243" coveredstatements="228" conditionals="82" coveredconditionals="69" methods="26" coveredmethods="26" elements="351" coveredelements="323" complexity="0" loc="243" ncloc="243" packages="4" files="19" classes="19"/>
+<coverage generated="1642421003938" clover="3.2.0">
+  <project timestamp="1642421003938" name="All files">
+    <metrics statements="249" coveredstatements="234" conditionals="82" coveredconditionals="69" methods="31" coveredmethods="31" elements="362" coveredelements="334" complexity="0" loc="249" ncloc="249" packages="4" files="20" classes="20"/>
     <package name="code">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="sum.ts" path="D:\ataola\github\ataola\coding-ts\code\sum.ts">
@@ -20,7 +20,7 @@
       </file>
     </package>
     <package name="code.leetcode">
-      <metrics statements="222" coveredstatements="207" conditionals="73" coveredconditionals="61" methods="23" coveredmethods="23"/>
+      <metrics statements="228" coveredstatements="213" conditionals="73" coveredconditionals="61" methods="28" coveredmethods="28"/>
       <file name="1-two-sum.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\1-two-sum.ts">
         <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
@@ -98,6 +98,15 @@
         <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="44" count="0" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
+      </file>
+      <file name="151-min-stack.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\151-min-stack.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
       </file>
       <file name="19-remove-nth-node-from-end-of-list.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\19-remove-nth-node-from-end-of-list.ts">
         <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

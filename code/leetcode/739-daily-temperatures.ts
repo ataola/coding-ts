@@ -1,9 +1,9 @@
 // code/leetcode/739-daily-temperatures.ts
 
 /**
- * 
+ *
  * @param {number[]} temperatures
- * @return {number[]} 
+ * @return {number[]}
  */
 export function dailyTemperatures(temperatures: number[]): number[] {
   const len = temperatures.length;
@@ -17,4 +17,4 @@ export function dailyTemperatures(temperatures: number[]): number[] {
     stack.push(i);
   }
   return res;
-};
+}

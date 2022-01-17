@@ -48,7 +48,11 @@
 
 - [x] 142、[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) ![链表](https://img.shields.io/badge/-链表-blue) ![快慢指针](https://img.shields.io/badge/-快慢指针-blue)
 
+- [x] 155、[最小栈](https://leetcode-cn.com/problems/min-stack/) ![栈](https://img.shields.io/badge/-栈-blue)
+
 - [x] 211、[添加与搜索单词](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
+
+- [x] 739、[每日温度](https://leetcode-cn.com/problems/daily-temperatures/) ![栈](https://img.shields.io/badge/-栈-blue)
 
 ## 了解更多
 
