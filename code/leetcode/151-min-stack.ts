@@ -1,24 +1,24 @@
 // code/leetcode/151-min-stack.ts
 export default class MinStack {
-  data: number[];
+  stack: number[];
   constructor() {
-    this.data = [];
+    this.stack = [];
   }
 
   push(val: number): void {
-    this.data.push(val);
+    this.stack.push(val);
   }
 
   pop(): void {
-    this.data.pop();
+    this.stack.pop();
   }
 
   top(): number {
-    return this.data[this.data.length - 1];
+    return this.stack[this.stack.length - 1];
   }
 
   getMin(): number {
-    return Math.min.apply(this, this.data);
+    return Math.min.apply(this, this.stack);
   }
 }
 

@@ -32,6 +32,8 @@
 
 - [x] 206、[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) ![链表](https://img.shields.io/badge/-链表-blue) ![多指针](https://img.shields.io/badge/-多指针-blue)
 
+- [x] 232、[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) ![栈](https://img.shields.io/badge/-栈-blue) ![队列](https://img.shields.io/badge/-队列-blue)
+
 - [x] 680、[验证回文字符串 II](https://leetcode-cn.com/problems/valid-palindrome-ii/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
 
 ### medium
@@ -63,3 +65,5 @@
 ## 致谢
 
 感谢[修言大佬](https://juejin.cn/user/2400989094885495)写的掘金小测-[前端算法与数据结构面试：底层逻辑解读与大厂真题训练](https://juejin.cn/book/6844733800300150797),因为看了他的小册，我才懵懵懂懂有了刷题的想法，然后持之以恒地实践下去！
+
+感谢[力扣中国](https://leetcode-cn.com/),让我再刷题的时候找到了些编程的快乐，也成长了很多。

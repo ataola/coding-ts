@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642421003938" clover="3.2.0">
-  <project timestamp="1642421003938" name="All files">
-    <metrics statements="249" coveredstatements="234" conditionals="82" coveredconditionals="69" methods="31" coveredmethods="31" elements="362" coveredelements="334" complexity="0" loc="249" ncloc="249" packages="4" files="20" classes="20"/>
+<coverage generated="1642423648720" clover="3.2.0">
+  <project timestamp="1642423648720" name="All files">
+    <metrics statements="263" coveredstatements="246" conditionals="88" coveredconditionals="74" methods="36" coveredmethods="36" elements="387" coveredelements="356" complexity="0" loc="263" ncloc="263" packages="4" files="21" classes="21"/>
     <package name="code">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="sum.ts" path="D:\ataola\github\ataola\coding-ts\code\sum.ts">
@@ -20,7 +20,7 @@
       </file>
     </package>
     <package name="code.leetcode">
-      <metrics statements="228" coveredstatements="213" conditionals="73" coveredconditionals="61" methods="28" coveredmethods="28"/>
+      <metrics statements="242" coveredstatements="225" conditionals="79" coveredconditionals="66" methods="33" coveredmethods="33"/>
       <file name="1-two-sum.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\1-two-sum.ts">
         <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
@@ -182,6 +182,23 @@
         <line num="35" count="2" type="stmt"/>
         <line num="38" count="2" type="stmt"/>
         <line num="39" count="2" type="stmt"/>
+      </file>
+      <file name="232-implement-queue-using-stacks.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\232-implement-queue-using-stacks.ts">
+        <metrics statements="14" coveredstatements="12" conditionals="6" coveredconditionals="5" methods="5" coveredmethods="5"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="680-valid-palindrome-ii.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\680-valid-palindrome-ii.ts">
         <metrics statements="17" coveredstatements="14" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="2"/>
