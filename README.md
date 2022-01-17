@@ -20,6 +20,8 @@
 
 - [x] 1、[两数之和](https://leetcode-cn.com/problems/two-sum/) ![数组](https://img.shields.io/badge/-数组-blue) ![加法转减法](https://img.shields.io/badge/-加法转减法-blue)
 
+- [x] 20、[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) ![栈](https://img.shields.io/badge/-栈-blue)
+
 - [x] 21、[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) ![链表](https://img.shields.io/badge/-链表-blue)
 
 - [x] 83、[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) ![链表](https://img.shields.io/badge/-链表-blue)

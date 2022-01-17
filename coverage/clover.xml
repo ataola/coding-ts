@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642409079918" clover="3.2.0">
-  <project timestamp="1642409079918" name="All files">
-    <metrics statements="220" coveredstatements="206" conditionals="74" coveredconditionals="62" methods="24" coveredmethods="24" elements="318" coveredelements="292" complexity="0" loc="220" ncloc="220" packages="4" files="17" classes="17"/>
+<coverage generated="1642411162734" clover="3.2.0">
+  <project timestamp="1642411162734" name="All files">
+    <metrics statements="233" coveredstatements="218" conditionals="80" coveredconditionals="67" methods="25" coveredmethods="25" elements="338" coveredelements="310" complexity="0" loc="233" ncloc="233" packages="4" files="18" classes="18"/>
     <package name="code">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="sum.ts" path="D:\ataola\github\ataola\coding-ts\code\sum.ts">
@@ -20,7 +20,7 @@
       </file>
     </package>
     <package name="code.leetcode">
-      <metrics statements="199" coveredstatements="185" conditionals="65" coveredconditionals="54" methods="21" coveredmethods="21"/>
+      <metrics statements="212" coveredstatements="197" conditionals="71" coveredconditionals="59" methods="22" coveredmethods="22"/>
       <file name="1-two-sum.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\1-two-sum.ts">
         <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
@@ -115,6 +115,22 @@
         <line num="23" count="4" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
         <line num="28" count="3" type="stmt"/>
+      </file>
+      <file name="20-valid-parentheses.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\20-valid-parentheses.ts">
+        <metrics statements="13" coveredstatements="12" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="15" type="stmt"/>
+        <line num="26" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="29" count="7" type="cond" truecount="3" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
       </file>
       <file name="206-reverse-linked-list.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\206-reverse-linked-list.ts">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
