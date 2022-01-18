@@ -44,7 +44,9 @@
 
 - [x] 19、[删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 
-- [x] 46、[全排列](https://leetcode-cn.com/problems/permutations/) ![数组](https://img.shields.io/badge/-数组-blue)
+- [x] 46、[全排列](https://leetcode-cn.com/problems/permutations/) ![数组](https://img.shields.io/badge/-数组-blue) ![dfs](https://img.shields.io/badge/-dfs-blue)
+
+- [x] 78、[子集](https://leetcode-cn.com/problems/subsets/) ![数组](https://img.shields.io/badge/-数组-blue) ![dfs](https://img.shields.io/badge/-dfs-blue)
 
 - [x] 82、[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) ![链表](https://img.shields.io/badge/-链表-blue)
 
