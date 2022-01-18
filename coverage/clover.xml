@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642505487913" clover="3.2.0">
-  <project timestamp="1642505487913" name="All files">
-    <metrics statements="301" coveredstatements="284" conditionals="95" coveredconditionals="81" methods="41" coveredmethods="41" elements="437" coveredelements="406" complexity="0" loc="301" ncloc="301" packages="4" files="24" classes="24"/>
+<coverage generated="1642506685058" clover="3.2.0">
+  <project timestamp="1642506685058" name="All files">
+    <metrics statements="313" coveredstatements="296" conditionals="96" coveredconditionals="82" methods="43" coveredmethods="43" elements="452" coveredelements="421" complexity="0" loc="313" ncloc="313" packages="4" files="25" classes="25"/>
     <package name="code">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="sum.ts" path="D:\ataola\github\ataola\coding-ts\code\sum.ts">
@@ -20,7 +20,7 @@
       </file>
     </package>
     <package name="code.leetcode">
-      <metrics statements="280" coveredstatements="263" conditionals="86" coveredconditionals="73" methods="38" coveredmethods="38"/>
+      <metrics statements="292" coveredstatements="275" conditionals="87" coveredconditionals="74" methods="40" coveredmethods="40"/>
       <file name="1-two-sum.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\1-two-sum.ts">
         <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
@@ -265,6 +265,21 @@
         <line num="15" count="11" type="stmt"/>
         <line num="17" count="15" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
+      </file>
+      <file name="77-combinations.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\77-combinations.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
       </file>
       <file name="78-subsets.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\78-subsets.ts">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
