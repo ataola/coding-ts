@@ -44,6 +44,8 @@
 
 - [x] 19、[删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 
+- [x] 46、[全排列](https://leetcode-cn.com/problems/permutations/) ![数组](https://img.shields.io/badge/-数组-blue)
+
 - [x] 82、[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) ![链表](https://img.shields.io/badge/-链表-blue)
 
 - [x] 92、[反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) ![链表](https://img.shields.io/badge/-链表-blue)
@@ -55,6 +57,10 @@
 - [x] 211、[添加与搜索单词](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
 
 - [x] 739、[每日温度](https://leetcode-cn.com/problems/daily-temperatures/) ![栈](https://img.shields.io/badge/-栈-blue)
+
+### hard
+
+- [x] 239、[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) ![队列](https://img.shields.io/badge/-队列-blue)
 
 ## 了解更多
 
