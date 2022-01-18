@@ -30,6 +30,8 @@
 
 - [x] 141、[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) ![链表](https://img.shields.io/badge/-链表-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
 
+- [x] 144、[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) ![二叉树](https://img.shields.io/badge/-二叉树-blue)
+
 - [x] 206、[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) ![链表](https://img.shields.io/badge/-链表-blue) ![多指针](https://img.shields.io/badge/-多指针-blue)
 
 - [x] 232、[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) ![栈](https://img.shields.io/badge/-栈-blue) ![队列](https://img.shields.io/badge/-队列-blue)
@@ -42,7 +44,7 @@
 
 - [x] 15、[三数之和](https://leetcode-cn.com/problems/3sum/) ![数组](https://img.shields.io/badge/-数组-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
 
-- [x] 19、[删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+- [x] 19、[删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) ![链表](https://img.shields.io/badge/-链表-blue)
 
 - [x] 46、[全排列](https://leetcode-cn.com/problems/permutations/) ![数组](https://img.shields.io/badge/-数组-blue) ![dfs](https://img.shields.io/badge/-dfs-blue)
 
