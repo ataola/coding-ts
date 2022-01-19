@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642512570558" clover="3.2.0">
-  <project timestamp="1642512570558" name="All files">
-    <metrics statements="336" coveredstatements="310" conditionals="118" coveredconditionals="86" methods="47" coveredmethods="46" elements="501" coveredelements="442" complexity="0" loc="336" ncloc="336" packages="4" files="27" classes="27"/>
+<coverage generated="1642573054833" clover="3.2.0">
+  <project timestamp="1642573054834" name="All files">
+    <metrics statements="354" coveredstatements="327" conditionals="129" coveredconditionals="94" methods="48" coveredmethods="47" elements="531" coveredelements="468" complexity="0" loc="354" ncloc="354" packages="4" files="28" classes="28"/>
     <package name="code">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="sum.ts" path="D:\ataola\github\ataola\coding-ts\code\sum.ts">
@@ -20,14 +20,14 @@
       </file>
       <file name="tree-node.ts" path="D:\ataola\github\ataola\coding-ts\code\base\tree-node.ts">
         <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="10" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="11" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="12" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="10" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="8" type="cond" truecount="1" falsecount="1"/>
       </file>
     </package>
     <package name="code.leetcode">
-      <metrics statements="311" coveredstatements="285" conditionals="103" coveredconditionals="75" methods="43" coveredmethods="42"/>
+      <metrics statements="329" coveredstatements="302" conditionals="114" coveredconditionals="83" methods="44" coveredmethods="43"/>
       <file name="1-two-sum.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\1-two-sum.ts">
         <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
@@ -41,6 +41,27 @@
         <line num="26" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="27" count="3" type="stmt"/>
         <line num="29" count="4" type="stmt"/>
+      </file>
+      <file name="102-binary-tree-level-order-traversal.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\102-binary-tree-level-order-traversal.ts">
+        <metrics statements="18" coveredstatements="17" conditionals="11" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="5" type="cond" truecount="4" falsecount="1"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="5" type="cond" truecount="4" falsecount="1"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
       </file>
       <file name="141-linked-list-cycle.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\141-linked-list-cycle.ts">
         <metrics statements="11" coveredstatements="9" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
