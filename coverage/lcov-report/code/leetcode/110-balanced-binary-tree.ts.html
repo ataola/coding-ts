@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for code/leetcode/46-permutations.ts</title>
+    <title>Code coverage report for code/leetcode/110-balanced-binary-tree.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">code/leetcode</a> 46-permutations.ts</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">code/leetcode</a> 110-balanced-binary-tree.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">90.9% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>16/16</span>
+                <span class='fraction'>10/11</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">80% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>4/5</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">90.9% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>15/15</span>
+                <span class='fraction'>10/11</span>
             </div>
         
             
@@ -90,68 +90,59 @@
 <a name='L25'></a><a href='#L25'>25</a>
 <a name='L26'></a><a href='#L26'>26</a>
 <a name='L27'></a><a href='#L27'>27</a>
-<a name='L28'></a><a href='#L28'>28</a>
-<a name='L29'></a><a href='#L29'>29</a>
-<a name='L30'></a><a href='#L30'>30</a>
-<a name='L31'></a><a href='#L31'>31</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L28'></a><a href='#L28'>28</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">23x</span>
-<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">23x</span>
-<span class="cline-any cline-yes">60x</span>
-<span class="cline-any cline-yes">20x</span>
-<span class="cline-any cline-yes">20x</span>
-<span class="cline-any cline-yes">20x</span>
-<span class="cline-any cline-yes">20x</span>
-<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">22x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// code/leetcode/46-permutations.ts
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// code/leetcode/110-balanced-binary-tree.ts
+import TreeNode from '../base/tree-node';
 /**
  *
- * @param {number[]} nums
- * @return {number[][]}
+ * @param {TreeNode | null} root
+ * @return {boolean}
  */
-export default function permute(nums: number[]): number[][] {
-  const res: number[][] = [];
-  const map = new Map();
-  const cur: number[] = [];
-&nbsp;
-  function dfs(nth: number) {
-    if (nth === nums.length) {
-      res.push(cur.slice());
-    }
-&nbsp;
-    for (let i = 0; i &lt; nums.length; i++) {
-      if (!map.get(nums[i])) {
-        map.set(nums[i], 1);
-        cur.push(nums[i]);
-        dfs(nth + 1);
-        cur.pop();
-        map.set(nums[i], 0);
-      }
-    }
+export function isBalanced(root: TreeNode | null): boolean {
+  if (!root) {
+    return true;
   }
 &nbsp;
-  dfs(0);
-  return res;
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (Math.abs(dfs(root.left) - dfs(root.right)) &gt; 1) {
+<span class="cstat-no" title="statement not covered" >    return false;</span>
+  }
+&nbsp;
+  return isBalanced(root.left) &amp;&amp; isBalanced(root.right);
+&nbsp;
+  function dfs(node: TreeNode | null) {
+    if (!node) {
+      return 0;
+    }
+    const left: number = dfs(node.left);
+    const right: number = dfs(node.right);
+    return Math.max(left, right) + 1;
+  }
 }
 &nbsp;</pre></td></tr></table></pre>
 
