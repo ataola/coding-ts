@@ -60,6 +60,8 @@
 
 - [x] 92、[反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) ![链表](https://img.shields.io/badge/-链表-blue)
 
+- [x] 98、[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) ![树](https://img.shields.io/badge/-树-blue) ![中序遍历](https://img.shields.io/badge/-中序遍历-blue)
+
 - [x] 142、[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) ![链表](https://img.shields.io/badge/-链表-blue) ![快慢指针](https://img.shields.io/badge/-快慢指针-blue)
 
 - [x] 155、[最小栈](https://leetcode-cn.com/problems/min-stack/) ![栈](https://img.shields.io/badge/-栈-blue)
