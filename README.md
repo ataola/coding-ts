@@ -1,6 +1,6 @@
 # coding-ts
 
-> 基于 typescript 的刷题题解
+> 数构、算法、设计模式，用 typescript 打基础搞得，大伙随便看看吧
 
 <p align="center">
   <a href="LICENSE">
@@ -14,9 +14,11 @@
   </a>
 </p>
 
-## Leetcode
+## 数构&算法
 
-### easy
+### Leetcode
+
+#### easy
 
 - [x] 1、[两数之和](https://leetcode-cn.com/problems/two-sum/) ![数组](https://img.shields.io/badge/-数组-blue) ![加法转减法](https://img.shields.io/badge/-加法转减法-blue)
 
@@ -46,7 +48,7 @@
 
 - [x] 680、[验证回文字符串 II](https://leetcode-cn.com/problems/valid-palindrome-ii/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
 
-### medium
+#### medium
 
 - [x] 8、[字符串转换整数 aoti](https://leetcode-cn.com/problems/string-to-integer-atoi/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
 
@@ -74,9 +76,11 @@
 
 - [x] 739、[每日温度](https://leetcode-cn.com/problems/daily-temperatures/) ![栈](https://img.shields.io/badge/-栈-blue)
 
-### hard
+#### hard
 
 - [x] 239、[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) ![队列](https://img.shields.io/badge/-队列-blue)
+
+## 设计模式
 
 ## 了解更多
 
@@ -86,6 +90,8 @@
 
 ## 致谢
 
-感谢[修言大佬](https://juejin.cn/user/2400989094885495)写的掘金小测-[前端算法与数据结构面试：底层逻辑解读与大厂真题训练](https://juejin.cn/book/6844733800300150797),因为看了他的小册，我才懵懵懂懂有了刷题巩固数构和算法的想法，然后持之以恒地实践下去！
+感谢[修言大佬](https://juejin.cn/user/2400989094885495)写的掘金小册-[前端算法与数据结构面试：底层逻辑解读与大厂真题训练](https://juejin.cn/book/6844733800300150797),因为看了他的小册，我才懵懵懂懂有了刷题巩固数构和算法的想法，然后持之以恒地实践下去！
+
+感谢[修言大佬](https://juejin.cn/user/2400989094885495)写的掘金小册-[JavaScript 设计模式核⼼原理与应⽤实践](https://juejin.cn/book/6844733790204461070),让我对设计模式有了进一步的认识和实践！
 
 感谢[力扣中国](https://leetcode-cn.com/),让我在刷题的时候找到了些编程的快乐，也成长了很多。
