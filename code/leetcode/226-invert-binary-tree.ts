@@ -11,11 +11,9 @@ export function invertTree(root: TreeNode | null): TreeNode | null {
   }
 
   function dfs(node: TreeNode | null) {
-    let left = null;
-    let right = null;
     if (node) {
-      left = node.left;
-      right = node.right;
+      const left = node.left;
+      const right = node.right;
       node.left = right;
       node.right = left;
       dfs(node.left);
