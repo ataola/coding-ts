@@ -1,6 +1,10 @@
 // code/sort/insert.ts
-
-export function insert(nums: number[]) {
+/**
+ *
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+export function insert(nums: number[]): number[] {
   if (nums.length < 2) {
     return nums;
   }

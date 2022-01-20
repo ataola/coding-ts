@@ -1,6 +1,6 @@
 # coding-ts
 
-> 数构、算法、设计模式，用 typescript 打基础搞得，大伙随便看看吧
+> 数构、算法、设计模式，用 typescript 打基础搞的，大伙随便看看吧
 
 <p align="center">
   <a href="LICENSE">
