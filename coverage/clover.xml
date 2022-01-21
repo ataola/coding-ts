@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642684031886" clover="3.2.0">
-  <project timestamp="1642684031886" name="All files">
-    <metrics statements="483" coveredstatements="449" conditionals="159" coveredconditionals="119" methods="64" coveredmethods="63" elements="706" coveredelements="631" complexity="0" loc="483" ncloc="483" packages="5" files="37" classes="37"/>
+<coverage generated="1642734531724" clover="3.2.0">
+  <project timestamp="1642734531724" name="All files">
+    <metrics statements="496" coveredstatements="462" conditionals="161" coveredconditionals="121" methods="67" coveredmethods="66" elements="724" coveredelements="649" complexity="0" loc="496" ncloc="496" packages="5" files="38" classes="38"/>
     <package name="code">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="sum.ts" path="D:\ataola\github\ataola\coding-ts\code\sum.ts">
@@ -27,7 +27,7 @@
       </file>
     </package>
     <package name="code.leetcode">
-      <metrics statements="377" coveredstatements="346" conditionals="126" coveredconditionals="92" methods="51" coveredmethods="50"/>
+      <metrics statements="390" coveredstatements="359" conditionals="128" coveredconditionals="94" methods="54" coveredmethods="53"/>
       <file name="1-two-sum.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\1-two-sum.ts">
         <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
@@ -343,6 +343,22 @@
         <line num="30" count="0" type="stmt"/>
         <line num="32" count="2" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
+      </file>
+      <file name="70-climbing-stairs.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\70-climbing-stairs.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
       </file>
       <file name="739-daily-temperatures.ts" path="D:\ataola\github\ataola\coding-ts\code\leetcode\739-daily-temperatures.ts">
         <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>

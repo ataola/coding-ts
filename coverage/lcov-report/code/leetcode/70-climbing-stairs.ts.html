@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for code/leetcode/102-binary-tree-level-order-traversal.ts</title>
+    <title>Code coverage report for code/leetcode/70-climbing-stairs.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">code/leetcode</a> 102-binary-tree-level-order-traversal.ts</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">code/leetcode</a> 70-climbing-stairs.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">94.73% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>18/19</span>
+                <span class='fraction'>14/14</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">72.72% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>8/11</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">94.44% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>17/18</span>
+                <span class='fraction'>13/13</span>
             </div>
         
             
@@ -94,8 +94,8 @@
 <a name='L29'></a><a href='#L29'>29</a>
 <a name='L30'></a><a href='#L30'>30</a>
 <a name='L31'></a><a href='#L31'>31</a>
-<a name='L32'></a><a href='#L32'>32</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -103,58 +103,61 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// code/leetcode/102-binary-tree-level-order-traversal.ts
-import TreeNode from '../base/tree-node';
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// code/leetcode/70-climbing-stairs.ts
 /**
- *
- * @param {TreeNode | null} root
- * @return {number[][]}
+ * @description 记忆化搜索
+ * @param {number} n
+ * @return {number}
  */
-export function levelOrder(root: TreeNode | null): number[][] {
-  const res: number[][] = [];
-  <span class="missing-if-branch" title="if path not taken" >I</span>if (!root) {
-<span class="cstat-no" title="statement not covered" >    return res;</span>
-  }
-  const queue: TreeNode[] = [root];
-  const arr: number[] = [];
-  while (queue.length) {
-    const len = queue.length;
-    for (let i = 0; i &lt; len; i++) {
-      const cur = queue.shift() as TreeNode;
-      arr.push(cur.val);
-      if (cur<span class="branch-0 cbranch-no" title="branch not covered" >?.l</span>eft) {
-        queue.push(cur.left);
-      }
-      if (cur<span class="branch-0 cbranch-no" title="branch not covered" >?.r</span>ight) {
-        queue.push(cur.right);
-      }
+export function climbStairs(n: number): number {
+  const map = new Map();
+  function dfs(n: number) {
+    if (n &lt;= 3) {
+      return n;
     }
-    res.push(arr.slice());
-    arr.length = 0;
+    if (!map.get(n)) {
+      map.set(n, dfs(n - 1) + dfs(n - 2));
+    }
+    return map.get(n);
   }
-  return res;
+  return dfs(n);
+}
+&nbsp;
+/**
+ * @description 动态规划
+ * @param {number} n
+ * @return {number}
+ */
+export function climbStairs2(n: number): number {
+  const arr: number[] = [0, 1, 2, 3];
+  for (let i = 4; i &lt;= n; i++) {
+    arr[i] = arr[i - 1] + arr[i - 2];
+  }
+  return arr[n];
 }
 &nbsp;</pre></td></tr></table></pre>
 
