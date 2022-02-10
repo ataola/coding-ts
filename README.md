@@ -14,6 +14,28 @@
   </a>
 </p>
 
+## 写在前面
+
+### 本仓库相关
+
+线上阅读地址：https://zhengjiangtao.cn/coding-ts/
+
+仓库地址： https://github.com/ataola/coding-ts
+
+### JavaScript 姊妹篇
+
+线上阅读地址：https://zhengjiangtao.cn/coding/
+
+仓库地址：https://github.com/ataola/coding
+
+### Python 兄弟篇
+
+线上阅读地址：https://zhengjiangtao.cn/a2python
+
+仓库地址：https://github.com/ataola/a2python
+
+_额，也许随着年龄的增长，还会更新其他东西吧_
+
 ## 数构&算法
 
 ### Leetcode
@@ -86,7 +108,7 @@
 
 ## 设计模式
 
-## 了解更多
+## 了解更多&加群学习
 
 欢迎关注鄙人的公众号江涛学编程，一起学习，共同成长:smile:
 
