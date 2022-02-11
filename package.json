@@ -23,8 +23,6 @@
     "git:pull": "pull",
     "git:push": "push",
     "start": "concurrently \"npm run pretty:code\" \"npm run pretty:test\" \"npm run test:coverage\"",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
     "ebook:dev": "vuepress dev ebook",
     "ebook:build": "vuepress build ebook"
   },

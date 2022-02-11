@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/ebook/',
+  base: '/',
   locales: {
     '/': {
       lang: 'en-US',
