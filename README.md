@@ -114,6 +114,10 @@ _额，也许随着年龄的增长，还会更新其他东西吧_
 
 ![](img/qrcode.jpg)
 
+## 参考资料
+
+- [leetbook-数组和字符串](https://leetcode-cn.com/leetbook/detail/array-and-string/)
+
 ## 致谢
 
 感谢[修言大佬](https://juejin.cn/user/2400989094885495)写的掘金小册-[前端算法与数据结构面试：底层逻辑解读与大厂真题训练](https://juejin.cn/book/6844733800300150797),因为看了他的小册，我才懵懵懂懂有了刷题巩固数构和算法的想法，然后持之以恒地实践下去！
