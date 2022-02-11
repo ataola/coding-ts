@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/coding-ts',
+  base: '/coding-ts/',
   locales: {
     '/': {
       lang: 'en-US',
