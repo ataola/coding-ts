@@ -1992,6 +1992,14 @@
     "@vuepress/types" "1.9.7"
     lodash.debounce "^4.0.8"
 
+"@vuepress/plugin-back-to-top@^1.9.7":
+  version "1.9.7"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.9.7.tgz#249a76d79f1e0c8c71a2804485ad0245837e6bfd"
+  integrity sha512-DM1S+Q8Xn/i+zhe4zThekxb1M2abfKLklg/NKtQloklHKdNdVfk+EcxWYNmNfSii+ymDWaaG8lmH0xjVhy0iXw==
+  dependencies:
+    "@vuepress/types" "1.9.7"
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-last-updated@1.9.7":
   version "1.9.7"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.9.7.tgz#9f2d78fe7ced618d0480bf40a3e32b40486bac6d"
@@ -8278,6 +8286,11 @@ q@^1.1.2:
   resolved "https://registry.npmmirror.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==
 
+qrcode.vue@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.npmmirror.com/qrcode.vue/-/qrcode.vue-1.7.0.tgz#c54b2934f0650c10d92785d08aaad36c55e0fc56"
+  integrity sha512-R7t6Y3fDDtcU7L4rtqwGUDP9xD64gJhIwpfjhRCTKmBoYF6SS49PIJHRJ048cse6OI7iwTwgyy2C46N9Ygoc6g==
+
 qs@6.9.6:
   version "6.9.6"
   resolved "https://registry.npmmirror.com/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
@@ -10043,6 +10056,13 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     "@vuepress/shared-utils" "^1.2.0"
     markdown-it-container "^2.0.0"
+
+vuepress-plugin-qrcode@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-qrcode/-/vuepress-plugin-qrcode-1.0.7.tgz#3357ee2bbe9f6d601edfab81c2e8f24b266c1215"
+  integrity sha512-oE/QTxFD5ysGSQvGrPLxnlDNk9rS2GMaIde7gH8Bl+frYvw36ol3DPW1CO6sLSiZSOdo+eCi4NZ4Z+arfJggpg==
+  dependencies:
+    qrcode.vue "^1.7.0"
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"

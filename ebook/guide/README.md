@@ -1,40 +1,40 @@
-# Guide
+# 指南
 
-## Introduction
-This entire website shows a simple VuePress template. The purpose is that users can directly clone this repository as a startup project for initializing a VuePress website, and then add custom configurations and functions based on this project.
+## 介绍
+这整个网站是展示了一个简单的VuePress案例模板，目的是用户可以直接clone这个仓库，作为初始化一个VuePress网站启动项目，然后在这个项目的基础上新增自定义配置和功能。
 
-In addition, some plugins use cases are also shown, refer to [plugins](./plugin)
+除此之外，还展示一些插件的使用案例，参考[插件](./plugin)
 
-## Why build this template website?
-Some beginners who are new to VuePress will encounter large or small problems after following the official tutorial, especially the file directory, packaging, and plugin installation. If you copy the official repository directly, it is large, so if there is such a simple initial template, it will be very convenient to start it directly.
+## 为什么建这个模板站？
+有部分刚接触VuePress的同学，按照官方教程操作下来会遇到大大小小的问题，特别是文件目录、打包、插件安装这几块内容。如果直接复制官方的仓库又会比较大，所以如果有一个这样的简洁的初始模板，直接启动使用就很方便了。
 
-And the corresponding plugin can directly see the effect, making it easier to use.
+而且对应的插件能直接看到效果，使用起来更能得心应手。
 
-## Usage
+## 用法
 
-### Step 1
+### 第一步
 
-Download the repository code of Vuepress Template
+下载 Vuepress Template 的仓库代码
 ```sh
 git clone https://github.com/openHacking/vuepress-template.git
 ```
 
-### Step 2
-Installation dependencies
+### 第二步
+安装依赖
 ```sh
 cd vuepress-template
-yarn # or npm i
+yarn # 或者npm i
 ```
 
-### Step 3
-Start the project, then you can modify the configuration and write document content according to your needs
+### 第三步
+启动项目，随后即可根据自己的需求修改配置、编写文档内容
 ```sh
 npm run docs:dev
 ```
 
-### Step 4
-Packaged project
+### 第四步
+打包项目
 ```sh
 npm run docs:build
 ```
-As a result, a `dist` folder will be generated in the `docs/.vuepress/` directory, which contains the packaged code
+结果会在`docs/.vuepress/`目录下生成一个`dist`文件夹，里面就是打包后的代码

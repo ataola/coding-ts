@@ -42,6 +42,7 @@
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^27.4.0",
     "@types/node": "^17.0.8",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
     "concurrently": "^7.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",

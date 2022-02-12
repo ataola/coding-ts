@@ -1,18 +1,19 @@
-# Plugin
+# 插件
 
-## Introduction
-Here is a list of valid VuePress plugins that have been installed on this website, including official plugins, community plugins and niche plugins.
+## 介绍
+这里列举了本网站已经安装有效的VuePress插件，包括官方插件、社区插件和小众插件。
 
-Especially niche plugins, because some plugins may provide relatively small demand for functions, and some customized components, the [community plugins](https://github.com/vuepress/awesome-vuepress#community-plugins) list is not necessarily included, but there may still be a small number of developers who need these plugins. Then our website may include these plugins for developers in need to consult.
+特别是小众插件，因为有些插件提供的功能可能需求量比较小，有些定制化的成分，[社区插件](https://github.com/vuepress/awesome-vuepress#community-plugins)列表并不一定收录，但是还是可能会有一小部分同学需要这些插件，那么我们这个网站就可能会把这些插件收录进来，供有需要的同学查阅。
 
-Moreover, these custom developed plugins are also a new learning channel. If you have a plugin developed by yourself, you are also welcome to submit the project URL to VuePress Template [issues](https://github.com/openHacking/vuepress-template/issues), we will consider including it in the plugin list.
+再者，这些自定义开发的插件，也是一个新的学习渠道。如果你有自己开发的插件，也欢迎提交项目网址到 VuePress Template 的 [issues](https://github.com/openHacking/vuepress-template/issues)，我们会考虑收录到插件列表里。
 
-## Plugins List
+## 插件列表
 
-### Niche Plugins
+### 小众插件
 
-- [vuepress-plugin-qrocde](https://github.com/openHacking/vuepress-plugin-qrcode) Display the QR code of the current URL for mobile devices to scan
+- [vuepress-plugin-qrocde](https://github.com/openHacking/vuepress-plugin-qrcode) 展示当前网址二维码供移动设备扫描
 
-### Official Plugins
 
-- [@vuepress/plugin-back-to-top](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top) A plugin for "back to top" button
+### 官方插件
+
+- [@vuepress/plugin-back-to-top](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top) 回到顶部按钮
