@@ -1,7 +1,5 @@
 # coding-ts
 
-> 数构、算法、设计模式，用 typescript 打基础搞的，大伙随便看看吧
-
 <p align="center">
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License" />
@@ -14,29 +12,10 @@
   </a>
 </p>
 
-## 写在前面
-
-### 本仓库相关
-
-线上阅读地址：https://zhengjiangtao.cn/coding-ts/
-
-仓库地址： https://github.com/ataola/coding-ts
-
-### JavaScript 姊妹篇
-
-线上阅读地址：https://zhengjiangtao.cn/coding/
-
-仓库地址：https://github.com/ataola/coding
-
-### Python 兄弟篇
-
-线上阅读地址：https://zhengjiangtao.cn/a2python
-
-仓库地址：https://github.com/ataola/a2python
-
-_额，也许随着年龄的增长，还会更新其他东西吧_
-
 ## 数构&算法
+
+> 编程的本质是算法，而算法的本质是解决问题，程序设计的实质是对实际问题设计/选择好的数据结构和算法。 ------ N.Wirth
+
 
 ### Leetcode
 
@@ -110,7 +89,7 @@ _额，也许随着年龄的增长，还会更新其他东西吧_
 
 ## 了解更多&加群学习
 
-欢迎关注鄙人的公众号江涛学编程，一起学习，共同成长:smile:
+欢迎关注鄙人的公众号江涛学编程，关于我 -> 加群学习，共同成长:smile:
 
 ![](img/qrcode.jpg)
 
