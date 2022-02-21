@@ -75,7 +75,7 @@ console.log(arr); // [0, 0, 1, 2, 3, 0, 0, 0], 在下标为2的索引开始，�
 
 ### 删除
 
-这里也还是有 2 种，一种是 delete， 一种是 splice（是的，它除了可以任意位置插入，还可以任意位置删除）
+这里也还是有 4 种，一种是 delete， 一种是 splice（是的，它除了可以任意位置插入，还可以任意位置删除）, 一种是 pop 从数组末尾删除, 一种是 shift 从数组开头删除
 
 我们先来看下 splice 选手的，可以看到手符合我们的期望的
 
@@ -93,6 +93,24 @@ const arr =[1, 2, 3, 4, 5];
 console.log(arr); // [1, 2, 3, 4, 5]
 console.log(delete arr[2]); // true
 console.log(arr); // [ 1, 2, <1 empty item>, 4, 5 ]
+```
+
+我们再来看下 pop 选手的
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+console.log(arr); // [1, 2, 3, 4, 5]
+arr.pop();
+console.log(arr); // [ 1, 2, 3, 4 ]
+```
+
+我们再来看看 shift 选手的
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+console.log(arr); // [1, 2, 3, 4, 5]
+arr.shift();
+console.log(arr); // [2, 3, 4, 5]
 ```
 
 ### 修改
@@ -158,9 +176,9 @@ arr.forEach((value, index) => {
 
 ```
 
-### 迭代
+### 迭代和迭代器函数
 
-比较经典的就是斐波那契数列了
+迭代，比较经典的就是斐波那契数列了, 通过前面的值去推导后面的值
 
 ```javascript
 const fibonacci = [1, 1, 2];
@@ -182,12 +200,126 @@ for (let i = 0; i < 10; i++) {
 }
 ```
 
+ES6 为数组增加了一个@@iterator 属性，可通过 Symbol.iterator 来访问, 这里故意取到等号，当执行第 11 次`iterator.next().value`的时候，值为 undefined，因为迭代完了。
+
+```javascript
+const arr = [7, 2, 4, 5, 9, 6, 3, 8, 10, 1];
+let iterator = arr[Symbol.iterator]();
+for (let i = 0; i <= arr.length; i++) {
+  console.log(iterator.next().value);
+}
+```
+
+这里还可以通过 for...of 循环迭代
+
+```javascript
+const arr = [7, 2, 4, 5, 9, 6, 3, 8, 10, 1];
+let iterator = arr[Symbol.iterator]();
+
+for (const value of iterator) {
+  console.log(value);
+}
+```
+
+entries 方法返回包含键值对的@@iterator
+
+```javascript
+const arr = [7, 2, 4, 5, 9, 6, 3, 8, 10, 1];
+let iterator = arr.entries();
+for (let i = 0; i < arr.length; i++) {
+  console.log(iterator.next().value);
+}
+```
+
+这里还可以通过 for...of 循环迭代
+
+```javascript
+const arr = [7, 2, 4, 5, 9, 6, 3, 8, 10, 1];
+let iterator = arr.entries();
+
+for (const item of iterator) {
+  console.log(item);
+}
+```
+
+此外还有， keys 方法返回包含数组索引的@@iterator， values 方法返回包含数组的值的@@iterator 。这里就不作展开了，读者有兴趣可以了解学习下。
+
 ### 置空
 
 一句话哈 `arr.length = 0 // now arr is []`
 
-### 二维数组和多维数组
+### 交换位置
+
+一句话哈 `[arr[i], arr[j]] = [arr[j], arr[i]]`
+
+### 合并数组
+
+一句话哈 `arr.concat(arr1)`, concat 方法返回合并后的数组，但其不改变数组本身。
+
+```javascript
+const arr = [1, 2, 3];
+const arr1 = [4, 5, 6];
+console.log(arr.concat(arr1)); // [1, 2, 3, 4, 5, 6]
+console.log(arr); // [1, 2, 3]
+console.log(arr1); // [4, 5, 6]
+```
+
+### 打乱数组
+
+一句话哈， `arr.sort((a, b) => Math.random() - 0.5)`
+
+我们来看个例子
+
+```javascript
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+arr.sort((a, b) => Math.random() - 0.5);
+console.log(arr.toString()); // 7,2,4,5,9,6,3,8,10,1, 每次都不一样
+```
+
+### 排序
+
+一句话哈， `arr.sort((a, b) => a - b)`
+
+我们来看下这个例子
+
+```javascript
+const arr = [7, 2, 4, 5, 9, 6, 3, 8, 10, 1];
+arr.sort((a, b) => a - b);
+console.log(arr.toString()); // 1,2,3,4,5,6,7,8,9,10
+```
+
+### 反转
+
+一句话哈， `arr.reverse()`
+
+### 转字符串
+
+一句话哈， `arr.join('')` 或者 `arr.toString()`, 后者每个元素中间有逗号连接
+
+_因为这里是讲数构和算法，所以不过多介绍 JS 数组相关操作的 API，高阶函数这一块了。_
+
+## 二维数组和多维数组
+
+二维数组跟矩阵是一个意思，矩阵在生活中很常见，比如下围棋的棋盘， 比如开运动会走过主席台的每一个方块。
+
+二维数组的初始化是这样子的
+
+```javascript
+const arr = new Array(5); // 注意这里不要写成 const arr = new Array(5).fill([]) 因为js中的数组是引用类型
+for (let i = 0; i < arr.length; i++) {
+  arr[i] = [];
+}
+arr[0][0] = 1;
+console.log(arr); // [ [ 1 ], [], [], [], [] ]
+```
+
+多维数组这里以三维数组举例， 其实也很常见，比如要记录正方体的点的坐标，那么就要用到三维坐标系，把 x 轴、y 轴、z 轴的值记录到数组中，就是三维数组啦。
+
+## typescript 中定义数组
+
+用 const 或者 let 声明相关的数组变量， `const variableName: <type>[]`， 例如 `const arr:number[] = []`
 
 ## 参考文献
 
-- 维基百科-数组： https://zh.wikipedia.org/wiki/%E6%95%B0%E7%BB%84
+- 维基百科 - 数组： https://zh.wikipedia.org/wiki/%E6%95%B0%E7%BB%84
+- MDN - 数组： https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array
