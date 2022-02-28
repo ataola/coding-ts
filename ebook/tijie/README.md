@@ -67,3 +67,9 @@
 #### hard
 
 - [x] 239、[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) ![队列](https://img.shields.io/badge/-队列-blue)
+
+### PAT
+
+#### B
+
+- [x] B1001、[害死人不偿命的(3n + 1)猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528)
