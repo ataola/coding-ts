@@ -1,5 +1,5 @@
 // test/leetcode/151-min-stack.test.ts
-import MinStack from '../../code/leetcode/151-min-stack';
+import MinStack from '../../code/leetcode/155-min-stack';
 
 describe('test class MinStack:', () => {
   test('test case ["MinStack","push","push","push","getMin","pop","top","getMin"], [[],[-2],[0],[-3],[],[],[],[]]', () => {
