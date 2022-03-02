@@ -40,6 +40,8 @@
 
 #### medium
 
+- [x] 5、[最长回文字符串](https://leetcode-cn.com/problems/longest-palindromic-substring/) ![字符串](https://img.shields.io/badge/-字符串-blue)
+
 - [x] 8、[字符串转换整数 aoti](https://leetcode-cn.com/problems/string-to-integer-atoi/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
 
 - [x] 15、[三数之和](https://leetcode-cn.com/problems/3sum/) ![数组](https://img.shields.io/badge/-数组-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
