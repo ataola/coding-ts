@@ -306,7 +306,7 @@ console.log(arr.toString()); // 1,2,3,4,5,6,7,8,9,10
 
 #### 深拷贝
 
-一句话哈， `let newArr = JSON.parse(JSON.stringify(arr))
+一句话哈， `let newArr = JSON.parse(JSON.stringify(arr))`
 
 _因为这里是讲数构和算法，所以不过多介绍 JS 数组相关操作的 API，高阶函数这一块了。_
 
