@@ -296,6 +296,18 @@ console.log(arr.toString()); // 1,2,3,4,5,6,7,8,9,10
 
 一句话哈， `arr.join('')` 或者 `arr.toString()`, 后者每个元素中间有逗号连接
 
+### 复制数组
+
+因为 JavaScript 中的引用类型共用内存地址，所以这边就涉及到一个浅拷贝和深拷贝的知识了。
+
+#### 浅拷贝
+
+一句话哈， `let newArr = arr.slice(0)`
+
+#### 深拷贝
+
+一句话哈， `let newArr = JSON.parse(JSON.stringify(arr))
+
 _因为这里是讲数构和算法，所以不过多介绍 JS 数组相关操作的 API，高阶函数这一块了。_
 
 ## 二维数组和多维数组
@@ -319,7 +331,28 @@ console.log(arr); // [ [ 1 ], [], [], [], [] ]
 
 用 const 或者 let 声明相关的数组变量， `const variableName: <type>[]`， 例如 `const arr:number[] = []`
 
+## FAQ
+
+### 为什么数组的下标是从 0 开始的而不是 1？
+
+历史问题，JavaScript 除了名字和 JAVA 很像外，好多的思想和设计也是效仿 JAVA 中的设计。最开始是 C 语言中设计数组下标用 0 计数的，后面的高级语言向 JAVA、JavaScript 效仿它的。在 C 语言中数组的内存地址是一块连续的内存地址。
+
+假如数组 a 下标从 0 开始，那么内存地址的公式是
+
+```
+a[k]_address = base_address + k * type_size
+```
+
+而如果下标从 1 开始的话，那么内存地址的公式是
+
+```
+a[k]_address = base_address + (k-1)*type_size
+```
+
+可以看到随机访问在下标开始为 1 的情况下，多做了一次减法运算，对于计算机，CPU 就多做了一次减法指令，这算是人机妥协的典型例子吧。
+
 ## 参考文献
 
 - 维基百科 - 数组： https://zh.wikipedia.org/wiki/%E6%95%B0%E7%BB%84
 - MDN - 数组： https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array
+- 极客时间 - 数据结构和算法之美数组为什么下标是 0 开始的: https://time.geekbang.org/column/article/40961

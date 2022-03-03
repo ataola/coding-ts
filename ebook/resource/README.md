@@ -40,6 +40,10 @@
 
 - [掘金小册 - 《JavaScript 设计模式核⼼原理与应⽤实践》](https://juejin.cn/book/6844733790204461070) - 修言 著 ¥19.90
 
+### 极客时间
+
+- [极客时间 - 《数据结构和算法之美》](https://time.geekbang.org/column/100017301) - 王争 著 ￥ 199.00
+
 ### 出版图书
 
 - [豆瓣 - 《学习 Javascript 数据结构和算法》第三版](https://book.douban.com/subject/33441631/) - 人民邮电出版社 ¥69.00
