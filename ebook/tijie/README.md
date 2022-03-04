@@ -56,6 +56,8 @@
 
 - [x] 46、[全排列](https://leetcode-cn.com/problems/permutations/) ![数组](https://img.shields.io/badge/-数组-blue) ![dfs](https://img.shields.io/badge/-dfs-blue)
 
+- [x] 56、[合并区间](https://leetcode-cn.com/problems/merge-intervals/) ![数组](https://img.shields.io/badge/-数组-blue)
+
 - [x] 77、[组合](https://leetcode-cn.com/problems/combinations/) ![数组](https://img.shields.io/badge/-数组-blue) ![回溯](https://img.shields.io/badge/-回溯-blue) ![dfs](https://img.shields.io/badge/-dfs-blue) ![剪枝](https://img.shields.io/badge/-剪枝-blue)
 
 - [x] 78、[子集](https://leetcode-cn.com/problems/subsets/) ![数组](https://img.shields.io/badge/-数组-blue) ![dfs](https://img.shields.io/badge/-dfs-blue)

@@ -1,4 +1,10 @@
 // code/leetcode/35-search-insert-position.ts
+/**
+ *
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
 export function searchInsert(nums: number[], target: number): number {
   let left = 0;
   let right = nums.length - 1;

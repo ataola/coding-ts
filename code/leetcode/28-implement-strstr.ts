@@ -1,5 +1,11 @@
-// /code/leetcode/28-implement-strstr.ts
+// code/leetcode/28-implement-strstr.ts
 
+/**
+ *
+ * @param {string} haystack
+ * @param {string} needle
+ * @return {number}
+ */
 export function strStr(haystack: string, needle: string): number {
   if (needle === '') {
     return 0;

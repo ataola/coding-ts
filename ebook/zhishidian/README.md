@@ -26,6 +26,10 @@
 
 - [1991.找到数组的中间位置](https://leetcode-cn.com/problems/find-the-middle-index-in-array/)
 
+### medium
+
+- [56.合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+
 ## 指针
 
 ## 并查集

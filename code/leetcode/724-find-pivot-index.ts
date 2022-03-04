@@ -1,4 +1,10 @@
 // code/leetcode/724-find-pivot-index.ts
+
+/**
+ *
+ * @param {number[]} nums
+ * @return {number}
+ */
 export function pivotIndex(nums: number[]): number {
   const len = nums.length;
 
@@ -17,6 +23,13 @@ export function pivotIndex(nums: number[]): number {
   return -1;
 }
 
+/**
+ *
+ * @param {number[]} arr
+ * @param {number} left
+ * @param {number} right
+ * @return {number}
+ */
 function sum(arr: number[], left: number, right: number): number {
   let res = 0;
   for (let i = left; i <= right; i++) {
