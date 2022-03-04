@@ -16,6 +16,14 @@
 
 - [151.翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
+## 数组
+
+### easy
+
+- [724.寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)
+
+- [1991.找到数组的中间位置](https://leetcode-cn.com/problems/find-the-middle-index-in-array/)
+
 ## 指针
 
 ## 并查集

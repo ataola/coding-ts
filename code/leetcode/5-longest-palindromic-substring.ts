@@ -1,7 +1,7 @@
 // code/leetcode/5-longest-palindromic-substring.ts
 /**
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {string}
  */
 export function longestPalindrome(s: string): string {
