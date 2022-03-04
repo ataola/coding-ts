@@ -78,6 +78,8 @@
 
 - [x] 322、[零钱兑换](https://leetcode-cn.com/problems/coin-change/) ![动态规划](https://img.shields.io/badge/-动态规划-blue)
 
+- [x] 334、[反转字符串](https://leetcode-cn.com/problems/reverse-string/)![数组](https://img.shields.io/badge/-数组-blue)
+
 - [x] 739、[每日温度](https://leetcode-cn.com/problems/daily-temperatures/) ![栈](https://img.shields.io/badge/-栈-blue)
 
 #### hard
