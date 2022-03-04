@@ -14,6 +14,8 @@
 
 - [x] 28、[实现 subStr](https://leetcode-cn.com/problems/implement-strstr/)![字符串](https://img.shields.io/badge/-字符串-blue)
 
+- [x] 35、[搜索插入的位置](https://leetcode-cn.com/problems/search-insert-position/) ![数组](https://img.shields.io/badge/-数组-blue) ![二分查找](https://img.shields.io/badge/-二分查找-blue)
+
 - [x] 70、[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) ![动态规划](https://img.shields.io/badge/-动态规划-blue) ![记忆搜索](https://img.shields.io/badge/-记忆搜索-blue)
 
 - [x] 83、[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) ![链表](https://img.shields.io/badge/-链表-blue)

@@ -20,6 +20,8 @@
 
 ### easy
 
+- [35.搜索插入的位置](https://leetcode-cn.com/problems/search-insert-position/)
+
 - [724.寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/)
 
 - [1991.找到数组的中间位置](https://leetcode-cn.com/problems/find-the-middle-index-in-array/)
