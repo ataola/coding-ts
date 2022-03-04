@@ -1,5 +1,11 @@
 // code/leetcode/77-combinations.ts
 
+/**
+ *
+ * @param {number} n
+ * @param {number} k
+ * @return {number[][]}
+ */
 export default function combine(n: number, k: number): number[][] {
   const res: number[][] = [];
   const cur: number[] = [];

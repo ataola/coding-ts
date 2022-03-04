@@ -1,4 +1,4 @@
-// code/leetcode/151-min-stack.ts
+// code/leetcode/155-min-stack.ts
 export default class MinStack {
   stack: number[];
   constructor() {

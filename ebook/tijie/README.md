@@ -6,9 +6,15 @@
 
 - [x] 1、[两数之和](https://leetcode-cn.com/problems/two-sum/) ![数组](https://img.shields.io/badge/-数组-blue) ![加法转减法](https://img.shields.io/badge/-加法转减法-blue)
 
+- [x] 14、[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)![字符串](https://img.shields.io/badge/-字符串-blue)
+
 - [x] 20、[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) ![栈](https://img.shields.io/badge/-栈-blue)
 
 - [x] 21、[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) ![链表](https://img.shields.io/badge/-链表-blue)
+
+- [x] 28、[实现 subStr](https://leetcode-cn.com/problems/implement-strstr/)![字符串](https://img.shields.io/badge/-字符串-blue)
+
+- [x] 35、[搜索插入的位置](https://leetcode-cn.com/problems/search-insert-position/) ![数组](https://img.shields.io/badge/-数组-blue) ![二分查找](https://img.shields.io/badge/-二分查找-blue)
 
 - [x] 70、[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) ![动态规划](https://img.shields.io/badge/-动态规划-blue) ![记忆搜索](https://img.shields.io/badge/-记忆搜索-blue)
 
@@ -34,7 +40,13 @@
 
 - [x] 680、[验证回文字符串 II](https://leetcode-cn.com/problems/valid-palindrome-ii/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![双指针](https://img.shields.io/badge/-双指针-blue)
 
+- [x] 724、[寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index/) ![数组](https://img.shields.io/badge/-数组-blue)
+
+- [x] 1991、[找到数组的中间位置](https://leetcode-cn.com/problems/find-the-middle-index-in-array/) ![数组](https://img.shields.io/badge/-数组-blue)
+
 #### medium
+
+- [x] 5、[最长回文字符串](https://leetcode-cn.com/problems/longest-palindromic-substring/) ![字符串](https://img.shields.io/badge/-字符串-blue)
 
 - [x] 8、[字符串转换整数 aoti](https://leetcode-cn.com/problems/string-to-integer-atoi/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
 
@@ -43,6 +55,8 @@
 - [x] 19、[删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) ![链表](https://img.shields.io/badge/-链表-blue)
 
 - [x] 46、[全排列](https://leetcode-cn.com/problems/permutations/) ![数组](https://img.shields.io/badge/-数组-blue) ![dfs](https://img.shields.io/badge/-dfs-blue)
+
+- [x] 56、[合并区间](https://leetcode-cn.com/problems/merge-intervals/) ![数组](https://img.shields.io/badge/-数组-blue)
 
 - [x] 77、[组合](https://leetcode-cn.com/problems/combinations/) ![数组](https://img.shields.io/badge/-数组-blue) ![回溯](https://img.shields.io/badge/-回溯-blue) ![dfs](https://img.shields.io/badge/-dfs-blue) ![剪枝](https://img.shields.io/badge/-剪枝-blue)
 
@@ -56,14 +70,24 @@
 
 - [x] 142、[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) ![链表](https://img.shields.io/badge/-链表-blue) ![快慢指针](https://img.shields.io/badge/-快慢指针-blue)
 
+- [x] 151、[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) ![字符串](https://img.shields.io/badge/-字符串-blue)
+
 - [x] 155、[最小栈](https://leetcode-cn.com/problems/min-stack/) ![栈](https://img.shields.io/badge/-栈-blue)
 
 - [x] 211、[添加与搜索单词](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) ![字符串](https://img.shields.io/badge/-字符串-blue) ![正则](https://img.shields.io/badge/-正则-blue)
 
 - [x] 322、[零钱兑换](https://leetcode-cn.com/problems/coin-change/) ![动态规划](https://img.shields.io/badge/-动态规划-blue)
 
+- [x] 334、[反转字符串](https://leetcode-cn.com/problems/reverse-string/)![数组](https://img.shields.io/badge/-数组-blue)
+
 - [x] 739、[每日温度](https://leetcode-cn.com/problems/daily-temperatures/) ![栈](https://img.shields.io/badge/-栈-blue)
 
 #### hard
 
 - [x] 239、[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) ![队列](https://img.shields.io/badge/-队列-blue)
+
+### PAT
+
+#### B
+
+- [x] B1001、[害死人不偿命的(3n + 1)猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528)
