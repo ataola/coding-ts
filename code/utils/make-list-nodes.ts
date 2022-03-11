@@ -11,10 +11,6 @@ export default function makeListNodes(arr: number[]): ListNode {
     return new ListNode();
   } else if (arr.length === 1) {
     return new ListNode(arr[0]);
-  } else if (arr.length === 2) {
-    const head = new ListNode(arr[0]);
-    head.next = new ListNode(arr[1]);
-    return head;
   }
 
   const head = new ListNode(arr[0]);

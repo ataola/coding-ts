@@ -6,6 +6,8 @@
 
 - [leetbook -《数组和字符串》](https://leetcode-cn.com/leetbook/detail/array-and-string/) - 力扣官方 著
 
+- [leetbook - 《链表》](https://leetcode-cn.com/leetbook/detail/linked-list/) - 力扣官方 著
+
 ### 可视化
 
 - [visualgo - 数据结构和算法动态可视化](https://visualgo.net/zh/)
