@@ -74,6 +74,14 @@
 
 - [] [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
 
+## 链表
+
+### easy
+
+### medium
+
+- [x] [707.设计链表](https://leetcode-cn.com/problems/design-linked-list/)
+
 ## 并查集
 
 ## 动态规划

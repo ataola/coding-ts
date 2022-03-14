@@ -80,6 +80,8 @@
 
 - [x] 334、[反转字符串](https://leetcode-cn.com/problems/reverse-string/)![数组](https://img.shields.io/badge/-数组-blue)
 
+- [x] 707、[设计链表](https://leetcode-cn.com/problems/design-linked-list/)![链表](https://img.shields.io/badge/-链表-blue)
+
 - [x] 739、[每日温度](https://leetcode-cn.com/problems/daily-temperatures/) ![栈](https://img.shields.io/badge/-栈-blue)
 
 #### hard
