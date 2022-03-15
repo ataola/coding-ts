@@ -78,7 +78,33 @@
 
 ### easy
 
+- [] [21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists)
+
+- [] [141.环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+
+- [] [160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+
+- [] [203.移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+
+- [] [206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+
+- [] [234.回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)
+
 ### medium
+
+- [] [2.两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
+
+- [] [19.删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+
+- [] [61.旋转链表](https://leetcode-cn.com/problems/rotate-list)
+
+- [] [138.复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer)
+
+- [] [142.环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+
+- [] [328.奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)
+
+- [] [430.扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list)
 
 - [x] [707.设计链表](https://leetcode-cn.com/problems/design-linked-list/)
 
