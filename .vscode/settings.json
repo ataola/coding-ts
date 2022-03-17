@@ -30,7 +30,8 @@
     "*.cjson": "jsonc",
     "*.wxss": "css",
     "*.wxs": "javascript",
-    "*.html": "html"
+    "*.html": "html",
+    "vector": "cpp"
   },
   "files.eol": "\n",
   "docthis.includeDescriptionTag": true,
