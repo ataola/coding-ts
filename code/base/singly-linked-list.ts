@@ -1,4 +1,4 @@
-import SinglyListNode from "./singly-list-node";
+import SinglyListNode from './singly-list-node';
 export class SinglyLinkedList {
   dummy: SinglyListNode;
   length: number;
@@ -10,7 +10,7 @@ export class SinglyLinkedList {
   /**
    * @description 获取链表中第 index 个节点的值。如果索引无效，则返回-1。
    * @param {number} index
-   * @return {number} 
+   * @return {number}
    */
   get(index: number): number {
     if (index < 0 || index >= this.length) {
@@ -29,7 +29,7 @@ export class SinglyLinkedList {
   /**
    * @description 在链表的第一个元素之前添加一个值为 val 的节点。插入后，新节点将成为链表的第一个节点。
    * @param {number} val
-   * @return {void} 
+   * @return {void}
    */
   addAtHead(val: number): void {
     const cur = this.dummy.next;
@@ -41,7 +41,7 @@ export class SinglyLinkedList {
   /**
    * @description 将值为 val 的节点追加到链表的最后一个元素。
    * @param {number} val
-   * @return {void} 
+   * @return {void}
    */
   addAtTail(val: number): void {
     const singlyListNode = new SinglyListNode(val);
@@ -49,19 +49,19 @@ export class SinglyLinkedList {
     while (cur && cur.next) {
       cur = cur.next;
     }
-    cur.next = singlyListNode
+    cur.next = singlyListNode;
     this.length++;
   }
 
   /**
    * @description 在链表中的第 index 个节点之前添加值为 val  的节点。如果 index 等于链表的长度，则该节点将附加到链表的末尾。如果 index 大于链表长度，则不会插入节点。如果index小于0，则在头部插入节点。
-   * @param {number} index 
+   * @param {number} index
    * @param {number} val
-   * @return {void} 
+   * @return {void}
    */
   addAtIndex(index: number, val: number): void {
     if (index <= 0) {
-      this.addAtHead(val)
+      this.addAtHead(val);
     } else if (index === this.length) {
       this.addAtTail(val);
     } else if (index > this.length) {
@@ -81,7 +81,7 @@ export class SinglyLinkedList {
   /**
    * @description 如果索引 index 有效，则删除链表中的第 index 个节点。
    * @param {number} index
-   * @return {void} 
+   * @return {void}
    */
   deleteAtIndex(index: number): void {
     if (index >= 0 || index < this.length) {
@@ -107,14 +107,14 @@ export class SinglyLinkedList {
 }
 
 /**
-* Your SinglyLinkedList object will be instantiated and called as such:
-* var obj = new SinglyLinkedList()
-* var param_1 = obj.get(index)
-* obj.addAtHead(val)
-* obj.addAtTail(val)
-* obj.addAtIndex(index,val)
-* obj.deleteAtIndex(index)
-*/
+ * Your SinglyLinkedList object will be instantiated and called as such:
+ * var obj = new SinglyLinkedList()
+ * var param_1 = obj.get(index)
+ * obj.addAtHead(val)
+ * obj.addAtTail(val)
+ * obj.addAtIndex(index,val)
+ * obj.deleteAtIndex(index)
+ */
 
 // https://leetcode-cn.com/submissions/detail/282942880/
 // ["MyLinkedList","addAtTail","get"]

@@ -11,7 +11,7 @@ export class Queue {
 
   /**
    * @description 入队操作
-   * @param {number} element 
+   * @param {number} element
    * @return {boolean}
    */
   enQueue(element: number): boolean {
@@ -34,9 +34,9 @@ export class Queue {
   }
 
   /**
- * @description 返回队头元素
- * @return {number|undefined}
- */
+   * @description 返回队头元素
+   * @return {number|undefined}
+   */
   peek(): number | undefined {
     return this.data[this.head];
   }
@@ -59,12 +59,12 @@ export class Queue {
 
   /**
    * @description 转字符串输出
-   * @returns 
+   * @returns
    */
   toString(): string {
     let str = '';
     for (let i = 0; i < this.length; i++) {
-      str = `${str}, ${this.data[this.head + i]}`
+      str = `${str}, ${this.data[this.head + i]}`;
     }
     return str;
   }

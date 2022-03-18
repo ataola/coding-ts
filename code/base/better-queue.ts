@@ -12,10 +12,10 @@ export class BetterQueue {
   }
 
   /**
- * @description 入队操作
- * @param {number} element 
- * @return {boolean}
- */
+   * @description 入队操作
+   * @param {number} element
+   * @return {boolean}
+   */
   enQueue(element: number): boolean {
     this.data[this.tail] = element;
     this.tail++;
@@ -35,11 +35,11 @@ export class BetterQueue {
   }
 
   /**
- * @description 返回队头元素
- * @return {number|undefined}
- */
+   * @description 返回队头元素
+   * @return {number|undefined}
+   */
   peek(): number | undefined {
-    return this.data[this.head]
+    return this.data[this.head];
   }
 
   /**
@@ -60,7 +60,7 @@ export class BetterQueue {
 
   /**
    * @description 转字符串输出
-   * @returns 
+   * @returns
    */
   toString(): string {
     if (this.isEmpty()) {

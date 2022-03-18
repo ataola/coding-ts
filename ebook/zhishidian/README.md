@@ -108,6 +108,14 @@
 
 - [x] [707.设计链表](https://leetcode-cn.com/problems/design-linked-list/)
 
+## 队列
+
+### easy
+
+### medium
+
+- [x] [622.设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
+
 ## 并查集
 
 ## 动态规划

@@ -69,7 +69,7 @@ describe('test function reverseString:', () => {
       ' ',
       'A',
     ];
-    reverseString(s)
+    reverseString(s);
     expect(s).toEqual(s2);
   });
 });
