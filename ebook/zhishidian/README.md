@@ -122,9 +122,15 @@
 
 ### easy
 
+- [] [20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses)
+
 - [x] [155.最小栈](https://leetcode-cn.com/problems/min-stack/) ![栈](https://img.shields.io/badge/-栈-blue)
 
 ### medium
+
+- [] [150.逆波兰表达式](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation)
+
+- [] [739.每日温度](https://leetcode-cn.com/problems/daily-temperatures)
 
 ## 广度优先搜索(BFS)
 
