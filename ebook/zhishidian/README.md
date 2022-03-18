@@ -124,7 +124,7 @@
 
 - [] [20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses)
 
-- [x] [155.最小栈](https://leetcode-cn.com/problems/min-stack/) ![栈](https://img.shields.io/badge/-栈-blue)
+- [x] [155.最小栈](https://leetcode-cn.com/problems/min-stack/)
 
 ### medium
 
