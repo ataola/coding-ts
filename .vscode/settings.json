@@ -31,7 +31,8 @@
     "*.wxss": "css",
     "*.wxs": "javascript",
     "*.html": "html",
-    "vector": "cpp"
+    "vector": "cpp",
+    "ostream": "cpp"
   },
   "files.eol": "\n",
   "docthis.includeDescriptionTag": true,

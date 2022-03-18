@@ -112,9 +112,23 @@
 
 ### easy
 
+- [] [346.数据流中的移动平均值](https://leetcode-cn.com/problems/moving-average-from-data-stream)![plus会员](https://img.shields.io/badge/-plus会员-blue)
+
 ### medium
 
 - [x] [622.设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
+
+## 栈
+
+### easy
+
+- [x] [155.最小栈](https://leetcode-cn.com/problems/min-stack/) ![栈](https://img.shields.io/badge/-栈-blue)
+
+### medium
+
+## 广度优先搜索(BFS)
+
+## 深度优先搜索(DFS）
 
 ## 并查集
 
