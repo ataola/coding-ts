@@ -132,6 +132,22 @@
 
 - [] [739.每日温度](https://leetcode-cn.com/problems/daily-temperatures)
 
+## 二叉树
+
+### easy
+
+- [x] [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)
+
+- [x] [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)
+
+- [x] [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)
+
+### medium
+
+- [x] [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)
+
+- [x] [102. 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii)
+
 ## 广度优先搜索(BFS)
 
 ## 深度优先搜索(DFS）
