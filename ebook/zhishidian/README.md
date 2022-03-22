@@ -166,7 +166,35 @@
 
 ### hard
 
-- [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree)
+- [] [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree)
+
+## 哈希
+
+### easy
+
+- [] [1. 两数之和](https://leetcode-cn.com/problems/two-sum)
+
+- [] [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number)
+
+- [] [202. 快乐数](https://leetcode-cn.com/problems/happy-number)
+
+- [] [205. 同构字符串](https://leetcode-cn.com/problems/isomorphic-strings)
+
+- [] [217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)
+
+- [] [219. 存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii)
+
+- [] [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays)
+
+- [] [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)
+
+- [] [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)
+
+- [] [599. 两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists)
+
+- [] [705. 设计哈希集合](https://leetcode-cn.com/problems/design-hashset/)
+
+- [] [706. 设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/)
 
 ## 广度优先搜索(BFS)
 

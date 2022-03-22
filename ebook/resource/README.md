@@ -12,6 +12,8 @@
 
 - [leetbook - 《二叉树》](https://leetcode-cn.com/leetbook/detail/data-structure-binary-tree/) - 力扣官方 著
 
+- [leetbook - 《哈希表》](https://leetcode-cn.com/leetbook/detail/hash-table/) - 力扣官方 著
+
 ### 可视化
 
 - [visualgo - 数据结构和算法动态可视化](https://visualgo.net/zh/)
