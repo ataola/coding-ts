@@ -19,7 +19,7 @@ export class SinglyLinkedList {
 
     let cur: SinglyListNode = this.dummy;
     while (index >= 0) {
-      cur = cur.next;
+      cur = cur.next!;
       index--;
     }
 
@@ -69,7 +69,7 @@ export class SinglyLinkedList {
     } else {
       let cur: SinglyListNode = this.dummy;
       while (index > 0) {
-        cur = cur.next;
+        cur = cur.next!;
         index--;
       }
       const singlyListNode = new SinglyListNode(val, cur.next);
@@ -87,7 +87,7 @@ export class SinglyLinkedList {
     if (index >= 0 || index < this.length) {
       let cur = this.dummy;
       while (index > 0) {
-        cur = cur.next;
+        cur = cur.next!;
         index--;
       }
       if (cur && cur.next) {
