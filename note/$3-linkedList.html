@@ -8,7 +8,7 @@
     
     <meta name="description" content="阿涛啦的数据结构和算法笔记，创建于2022年">
     
-    <link rel="preload" href="/coding-ts/assets/css/0.styles.92f3910a.css" as="style"><link rel="preload" href="/coding-ts/assets/js/app.d5caf712.js" as="script"><link rel="preload" href="/coding-ts/assets/js/3.69454887.js" as="script"><link rel="preload" href="/coding-ts/assets/js/14.29d26085.js" as="script"><link rel="prefetch" href="/coding-ts/assets/js/10.3ee59ffd.js"><link rel="prefetch" href="/coding-ts/assets/js/11.b275647c.js"><link rel="prefetch" href="/coding-ts/assets/js/12.f0fd3351.js"><link rel="prefetch" href="/coding-ts/assets/js/13.b34a3b93.js"><link rel="prefetch" href="/coding-ts/assets/js/15.cc433591.js"><link rel="prefetch" href="/coding-ts/assets/js/16.5e6e1345.js"><link rel="prefetch" href="/coding-ts/assets/js/17.a04ae63c.js"><link rel="prefetch" href="/coding-ts/assets/js/18.bc429771.js"><link rel="prefetch" href="/coding-ts/assets/js/19.59766181.js"><link rel="prefetch" href="/coding-ts/assets/js/20.13aa6ad6.js"><link rel="prefetch" href="/coding-ts/assets/js/21.cce7454c.js"><link rel="prefetch" href="/coding-ts/assets/js/22.e714ea47.js"><link rel="prefetch" href="/coding-ts/assets/js/23.ac47fada.js"><link rel="prefetch" href="/coding-ts/assets/js/24.7782f619.js"><link rel="prefetch" href="/coding-ts/assets/js/25.b45047cb.js"><link rel="prefetch" href="/coding-ts/assets/js/4.1b2b0ea4.js"><link rel="prefetch" href="/coding-ts/assets/js/5.af54b191.js"><link rel="prefetch" href="/coding-ts/assets/js/6.23d66f89.js"><link rel="prefetch" href="/coding-ts/assets/js/7.39a2502b.js"><link rel="prefetch" href="/coding-ts/assets/js/8.edc3e6cd.js"><link rel="prefetch" href="/coding-ts/assets/js/9.0edde14d.js"><link rel="prefetch" href="/coding-ts/assets/js/vendors~docsearch.352c1107.js">
+    <link rel="preload" href="/coding-ts/assets/css/0.styles.92f3910a.css" as="style"><link rel="preload" href="/coding-ts/assets/js/app.b1e4881b.js" as="script"><link rel="preload" href="/coding-ts/assets/js/3.69454887.js" as="script"><link rel="preload" href="/coding-ts/assets/js/14.3ce71916.js" as="script"><link rel="prefetch" href="/coding-ts/assets/js/10.3ee59ffd.js"><link rel="prefetch" href="/coding-ts/assets/js/11.b275647c.js"><link rel="prefetch" href="/coding-ts/assets/js/12.f0fd3351.js"><link rel="prefetch" href="/coding-ts/assets/js/13.b34a3b93.js"><link rel="prefetch" href="/coding-ts/assets/js/15.cc433591.js"><link rel="prefetch" href="/coding-ts/assets/js/16.5e6e1345.js"><link rel="prefetch" href="/coding-ts/assets/js/17.a04ae63c.js"><link rel="prefetch" href="/coding-ts/assets/js/18.bc429771.js"><link rel="prefetch" href="/coding-ts/assets/js/19.59766181.js"><link rel="prefetch" href="/coding-ts/assets/js/20.13aa6ad6.js"><link rel="prefetch" href="/coding-ts/assets/js/21.0369cb9f.js"><link rel="prefetch" href="/coding-ts/assets/js/22.e714ea47.js"><link rel="prefetch" href="/coding-ts/assets/js/23.ac47fada.js"><link rel="prefetch" href="/coding-ts/assets/js/24.7782f619.js"><link rel="prefetch" href="/coding-ts/assets/js/25.b45047cb.js"><link rel="prefetch" href="/coding-ts/assets/js/4.1b2b0ea4.js"><link rel="prefetch" href="/coding-ts/assets/js/5.af54b191.js"><link rel="prefetch" href="/coding-ts/assets/js/6.23d66f89.js"><link rel="prefetch" href="/coding-ts/assets/js/7.39a2502b.js"><link rel="prefetch" href="/coding-ts/assets/js/8.edc3e6cd.js"><link rel="prefetch" href="/coding-ts/assets/js/9.0edde14d.js"><link rel="prefetch" href="/coding-ts/assets/js/vendors~docsearch.352c1107.js">
     <link rel="stylesheet" href="/coding-ts/assets/css/0.styles.92f3910a.css">
   </head>
   <body>
@@ -61,7 +61,603 @@
     <span class="token keyword">this</span><span class="token punctuation">.</span>next <span class="token operator">=</span> next <span class="token operator">===</span> <span class="token keyword">undefined</span> <span class="token operator">?</span> <span class="token keyword">null</span> <span class="token operator">:</span> next<span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre></div><p><em>这里我们先定义了一个联合类型 paramsType,然后通过<T extends="" xx=""> 的方式约束泛型, 想一下为什么不直接写<T>不是更少写点代码吗？是这样子的，例如 SinglyListNode<null>, SinglyListNode<undefined>这种就不会触发编译报错，而通过上面约束泛型的形式可以避免这个问题</undefined></null></T></T></em></p> <h3 id="链表的遍历"><a href="#链表的遍历" class="header-anchor">#</a> 链表的遍历</h3> <h3 id="链表的插入"><a href="#链表的插入" class="header-anchor">#</a> 链表的插入</h3> <h3 id="链表的删除"><a href="#链表的删除" class="header-anchor">#</a> 链表的删除</h3> <h3 id="链表的合并"><a href="#链表的合并" class="header-anchor">#</a> 链表的合并</h3> <h3 id="链表的反转"><a href="#链表的反转" class="header-anchor">#</a> 链表的反转</h3> <h2 id="参考文献"><a href="#参考文献" class="header-anchor">#</a> 参考文献</h2> <ul><li>维基百科 - 链表：https://zh.wikipedia.org/wiki/%E9%93%BE%E8%A1%A8</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+</code></pre></div><p><em>这里我们先定义了一个联合类型 paramsType,然后通过<T extends="" xx=""> 的方式约束泛型, 想一下为什么不直接写<T>不是更少写点代码吗？是这样子的，例如 <code>SinglyListNode&lt;null&gt;</code>, <code>SinglyListNode&lt;undefined&gt;</code>这种就不会触发编译报错，而通过上面约束泛型的形式可以避免这个问题</T></T></em></p> <h4 id="链表的定义"><a href="#链表的定义" class="header-anchor">#</a> 链表的定义</h4> <p>一个单链表，它应该包含获取链表中第 n 个结点的方法， 在链表头部添加结点的方法，在链表尾部添加结点的方法，在链表的第 n 个结点添加链表的方法，删除第 n 个结点的方法，获取整个链表的方法等等</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">import</span> SinglyListNode <span class="token keyword">from</span> <span class="token string">'./singly-list-node'</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">SinglyLinkedList</span> <span class="token punctuation">{</span>
+  dummy<span class="token operator">:</span> SinglyListNode<span class="token punctuation">;</span>
+  length<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>dummy <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 获取链表中第 index 个结点的值。如果索引无效，则返回-1。
+   * @param {number} index
+   * @return {number}
+   */</span>
+  <span class="token function">get</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 在链表的第一个元素之前添加一个值为 val 的结点。插入后，新结点将成为链表的第一个结点。
+   * @param {number} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtHead</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 将值为 val 的结点追加到链表的最后一个元素。
+   * @param {number} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtTail</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 在链表中的第 index 个结点之前添加值为 val  的结点。如果 index 等于链表的长度，则该结点将附加到链表的末尾。如果 index 大于链表长度，则不会插入结点。如果index小于0，则在头部插入结点。
+   * @param {number} index
+   * @param {number} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> val<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 如果索引 index 有效，则删除链表中的第 index 个结点。
+   * @param {number} index
+   * @return {void}
+   */</span>
+  <span class="token function">deleteAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 获取整个链表
+   * @return {SinglyListNode}
+   */</span>
+  <span class="token function">getLinkedList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> SinglyListNode <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>那么，创建一个链表就是这样的啦。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token comment">/**
+ * Your SinglyLinkedList object will be instantiated and called as such:
+ */</span>
+<span class="token keyword">const</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyLinkedList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> param <span class="token operator">=</span> obj<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span><span class="token function">addAtHead</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span><span class="token function">addAtTail</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span><span class="token function">addAtIndex</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span><span class="token function">deleteAtIndex</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><em>这里我们会在初始化链表的时候，创建一个 dummy 结点，有了它你会发现，后面获取整个链表，包括对链表的一些操作会简单很多</em></p> <p>同样的，既然有基于泛型的链表结点，那自然是有基于泛型的链表</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> paramsType <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./type'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> SinglyListNode <span class="token keyword">from</span> <span class="token string">'./singly-list-node-generics'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">SinglyLinkedList<span class="token operator">&lt;</span><span class="token constant">T</span> <span class="token keyword">extends</span> paramsType<span class="token operator">&gt;</span></span> <span class="token punctuation">{</span>
+  dummy<span class="token operator">:</span> SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span><span class="token punctuation">;</span>
+  length<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>dummy <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 获取链表中第 index 个结点的值。如果索引无效，则返回undefined。
+   * @param {number} index
+   * @return {T | undefined}
+   */</span>
+  <span class="token function">get</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token constant">T</span> <span class="token operator">|</span> <span class="token keyword">undefined</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 在链表的第一个元素之前添加一个值为 val 的结点。插入后，新结点将成为链表的第一个结点。
+   * @param {T} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtHead</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 将值为 val 的结点追加到链表的最后一个元素。
+   * @param {T} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtTail</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 在链表中的第 index 个结点之前添加值为 val  的结点。如果 index 等于链表的长度，则该结点将附加到链表的末尾。如果 index 大于链表长度，则不会插入结点。如果index小于0，则在头部插入结点。
+   * @param {number} index
+   * @param {T} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> val<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 如果索引 index 有效，则删除链表中的第 index 个结点。
+   * @param {number} index
+   * @return {void}
+   */</span>
+  <span class="token function">deleteAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 获取整个链表
+   * @returns {SinglyListNode&lt;T&gt;}
+   */</span>
+  <span class="token function">getLinkedList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><em>由于泛型的链表实现和链表并没有太大的差别，为了不占用篇幅，这里就点一下，在后面的子标题介绍中，就介绍针对于链表的实现</em></p> <h3 id="链表的遍历"><a href="#链表的遍历" class="header-anchor">#</a> 链表的遍历</h3> <p>这里我们实现一个 toString 方法，将链表的每个元素遍历出来。实现的思路是我们将 dummy 结点的 next 指针赋值给变量 cur，如果变量 cur 为 null 的话表示是空链表，如果 cur 存在的话，一把 while 循环遍历它，然后扁平化输出。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token comment">/**
+   * @description 转成字符串
+   * @return {string}
+   */</span>
+  <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> res<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode <span class="token operator">|</span> <span class="token keyword">null</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>cur<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> res<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token keyword">while</span> <span class="token punctuation">(</span>cur<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        res <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>res<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">, </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>cur<span class="token punctuation">.</span>val<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+        cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h3 id="获取链表的某个结点"><a href="#获取链表的某个结点" class="header-anchor">#</a> 获取链表的某个结点</h3> <p>这里和楼上的链表的遍历有点像，只不过判断依据不一样，首先我们先判断这个结点在不在（事先追加一个 length 属性去记录链表的长度），如果不在直接返回-1,如果在的话那么就按索引循环，终止的条件是索引小于 0，最后再返回对于的结点的值</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code> <span class="token comment">/**
+   * @description 获取链表中第 index 个结点的值。如果索引无效，则返回-1。
+   * @param {number} index
+   * @return {number}
+   */</span>
+  <span class="token function">get</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;</span> <span class="token number">0</span> <span class="token operator">||</span> index <span class="token operator">&gt;=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+      index<span class="token operator">--</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">return</span> cur<span class="token punctuation">.</span>val<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h3 id="链表的插入"><a href="#链表的插入" class="header-anchor">#</a> 链表的插入</h3> <p>插入这个操作有两个比较特殊的情况，就是在头结点插入和尾结点插入，普通的就是在任意位置插入。</p> <h4 id="头结点插入"><a href="#头结点插入" class="header-anchor">#</a> 头结点插入</h4> <p>我们把 dummy 结点的 next 指针指向的结点赋值给 cur，然后创建一个新的结点，将它的 next 指针指向 cur，最后我们将 dummy 结点的 next 指针指向我们刚才创建好的结点，最后长度+1。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code>  <span class="token comment">/**
+   * @description 在链表的第一个元素之前添加一个值为 val 的结点。插入后，新结点将成为链表的第一个结点。
+   * @param {number} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtHead</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> cur <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token keyword">const</span> singlyListNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode</span><span class="token punctuation">(</span>val<span class="token punctuation">,</span> cur<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">.</span>next <span class="token operator">=</span> singlyListNode<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h4 id="尾结点插入"><a href="#尾结点插入" class="header-anchor">#</a> 尾结点插入</h4> <p>我们把 dummy 结点赋值给变量 cur，然后根据条件<code>cur &amp;&amp; cur.next</code> 循环，直到 cur 为最后一个结点时，我们将其 next 指针指向刚才创建的结点</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code> <span class="token comment">/**
+   * @description 将值为 val 的结点追加到链表的最后一个元素。
+   * @param {number} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtTail</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> singlyListNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>cur <span class="token operator">&amp;&amp;</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    cur<span class="token punctuation">.</span>next <span class="token operator">=</span> singlyListNode<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h4 id="任意位置插入"><a href="#任意位置插入" class="header-anchor">#</a> 任意位置插入</h4> <p>任意位置这里就要分类讨论啦， 前面我们已经实现了在头节点和尾结点插入的，那么还有种就是不是在这两个位置插入的，当然还要排除所插入结点的位置在链表不存在的情况，具体的如下：</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code>  <span class="token comment">/**
+   * @description 在链表中的第 index 个结点之前添加值为 val  的结点。如果 index 等于链表的长度，则该结点将附加到链表的末尾。如果 index 大于链表长度，则不会插入结点。如果index小于0，则在头部插入结点。
+   * @param {number} index
+   * @param {number} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> val<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">addAtHead</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">addAtTail</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// do nothing</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+      <span class="token keyword">while</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+        index<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">const</span> singlyListNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode</span><span class="token punctuation">(</span>val<span class="token punctuation">,</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      cur<span class="token punctuation">.</span>next <span class="token operator">=</span> singlyListNode<span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">++</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+</code></pre></div><h3 id="链表的删除"><a href="#链表的删除" class="header-anchor">#</a> 链表的删除</h3> <p>讲道理，链表的插入有三种特殊的，链表的删除也应该有的，但是删除这个操作吧，就没必要搞得太繁琐，干就完事了，我不管它是谁，我删就完事了,因此我们需要写一种符合特殊位置删除的方法。</p> <p>具体的思路是，如果删除的索引结点在范围内的话，那么我们就根据索引遍历，然后将其指向 next 指针的 next 指针</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code>  <span class="token comment">/**
+   * @description 如果索引 index 有效，则删除链表中的第 index 个结点。
+   * @param {number} index
+   * @return {void}
+   */</span>
+  <span class="token function">deleteAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;=</span> <span class="token number">0</span> <span class="token operator">||</span> index <span class="token operator">&lt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> cur <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+      <span class="token keyword">while</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+        index<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>cur <span class="token operator">&amp;&amp;</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cur<span class="token punctuation">.</span>next <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+</code></pre></div><h3 id="获取整个链表"><a href="#获取整个链表" class="header-anchor">#</a> 获取整个链表</h3> <p>有了 dummy 结点，获取整个链表就轻松很多了，一句话哈<code>return this.dummy;</code></p> <div class="language-typescript extra-class"><pre class="language-typescript"><code>  <span class="token comment">/**
+   * @description 获取整个链表
+   * @return {SinglyListNode}
+   */</span>
+  <span class="token function">getLinkedList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> SinglyListNode <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>好啦， 到这里楼上关于链表的相关操作均已讲完，源代码如下：</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">import</span> SinglyListNode <span class="token keyword">from</span> <span class="token string">'./singly-list-node'</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">SinglyLinkedList</span> <span class="token punctuation">{</span>
+  dummy<span class="token operator">:</span> SinglyListNode<span class="token punctuation">;</span>
+  length<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>dummy <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 获取链表中第 index 个结点的值。如果索引无效，则返回-1。
+   * @param {number} index
+   * @return {number}
+   */</span>
+  <span class="token function">get</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;</span> <span class="token number">0</span> <span class="token operator">||</span> index <span class="token operator">&gt;=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+      index<span class="token operator">--</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">return</span> cur<span class="token punctuation">.</span>val<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 在链表的第一个元素之前添加一个值为 val 的结点。插入后，新结点将成为链表的第一个结点。
+   * @param {number} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtHead</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> cur <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token keyword">const</span> singlyListNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode</span><span class="token punctuation">(</span>val<span class="token punctuation">,</span> cur<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">.</span>next <span class="token operator">=</span> singlyListNode<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 将值为 val 的结点追加到链表的最后一个元素。
+   * @param {number} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtTail</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> singlyListNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>cur <span class="token operator">&amp;&amp;</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    cur<span class="token punctuation">.</span>next <span class="token operator">=</span> singlyListNode<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 在链表中的第 index 个结点之前添加值为 val  的结点。如果 index 等于链表的长度，则该结点将附加到链表的末尾。如果 index 大于链表长度，则不会插入结点。如果index小于0，则在头部插入结点。
+   * @param {number} index
+   * @param {number} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> val<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">addAtHead</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">addAtTail</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// do nothing</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+      <span class="token keyword">while</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+        index<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">const</span> singlyListNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode</span><span class="token punctuation">(</span>val<span class="token punctuation">,</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      cur<span class="token punctuation">.</span>next <span class="token operator">=</span> singlyListNode<span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">++</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 如果索引 index 有效，则删除链表中的第 index 个结点。
+   * @param {number} index
+   * @return {void}
+   */</span>
+  <span class="token function">deleteAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;=</span> <span class="token number">0</span> <span class="token operator">||</span> index <span class="token operator">&lt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> cur <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+      <span class="token keyword">while</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+        index<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>cur <span class="token operator">&amp;&amp;</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cur<span class="token punctuation">.</span>next <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 获取整个链表
+   * @return {SinglyListNode}
+   */</span>
+  <span class="token function">getLinkedList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> SinglyListNode <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 转成字符串
+   * @return {string}
+   */</span>
+  <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> res<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode <span class="token operator">|</span> <span class="token keyword">null</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>cur<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> res<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token keyword">while</span> <span class="token punctuation">(</span>cur<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        res <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>res<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">, </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>cur<span class="token punctuation">.</span>val<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+        cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>基于泛型的实现</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> paramsType <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./type'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> SinglyListNode <span class="token keyword">from</span> <span class="token string">'./singly-list-node-generics'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">SinglyLinkedList<span class="token operator">&lt;</span><span class="token constant">T</span> <span class="token keyword">extends</span> paramsType<span class="token operator">&gt;</span></span> <span class="token punctuation">{</span>
+  dummy<span class="token operator">:</span> SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span><span class="token punctuation">;</span>
+  length<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>dummy <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 获取链表中第 index 个结点的值。如果索引无效，则返回undefined。
+   * @param {number} index
+   * @return {T | undefined}
+   */</span>
+  <span class="token function">get</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token constant">T</span> <span class="token operator">|</span> <span class="token keyword">undefined</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;</span> <span class="token number">0</span> <span class="token operator">||</span> index <span class="token operator">&gt;=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token keyword">undefined</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+      index<span class="token operator">--</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">return</span> cur<span class="token punctuation">.</span>val<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 在链表的第一个元素之前添加一个值为 val 的结点。插入后，新结点将成为链表的第一个结点。
+   * @param {T} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtHead</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> cur <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token keyword">const</span> singlyListNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span></span><span class="token punctuation">(</span>val<span class="token punctuation">,</span> cur<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">.</span>next <span class="token operator">=</span> singlyListNode<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 将值为 val 的结点追加到链表的最后一个元素。
+   * @param {T} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtTail</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> singlyListNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span></span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>cur <span class="token operator">&amp;&amp;</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    cur<span class="token punctuation">.</span>next <span class="token operator">=</span> singlyListNode<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 在链表中的第 index 个结点之前添加值为 val  的结点。如果 index 等于链表的长度，则该结点将附加到链表的末尾。如果 index 大于链表长度，则不会插入结点。如果index小于0，则在头部插入结点。
+   * @param {number} index
+   * @param {T} val
+   * @return {void}
+   */</span>
+  <span class="token function">addAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> val<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">addAtHead</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">addAtTail</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// do nothing</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+      <span class="token keyword">while</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+        index<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">const</span> singlyListNode <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span></span><span class="token punctuation">(</span>val<span class="token punctuation">,</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      cur<span class="token punctuation">.</span>next <span class="token operator">=</span> singlyListNode<span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">++</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 如果索引 index 有效，则删除链表中的第 index 个结点。
+   * @param {number} index
+   * @return {void}
+   */</span>
+  <span class="token function">deleteAtIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;=</span> <span class="token number">0</span> <span class="token operator">||</span> index <span class="token operator">&lt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> cur <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+      <span class="token keyword">while</span> <span class="token punctuation">(</span>index <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+        index<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>cur <span class="token operator">&amp;&amp;</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        cur<span class="token punctuation">.</span>next <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 获取整个链表
+   * @returns {SinglyListNode&lt;T&gt;}
+   */</span>
+  <span class="token function">getLinkedList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/**
+   * @description 转成字符串
+   * @return {string}
+   */</span>
+  <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> res<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> cur<span class="token operator">:</span> SinglyListNode<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span> <span class="token operator">|</span> <span class="token keyword">null</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>dummy<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>cur<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> res<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token keyword">while</span> <span class="token punctuation">(</span>cur<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        res <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>res<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">, </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>cur<span class="token punctuation">.</span>val<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+        cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token operator">!</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="链表的合并"><a href="#链表的合并" class="header-anchor">#</a> 链表的合并</h3> <p>leetcode 原题-合并两个有序的链表：<code>https://leetcode-cn.com/problems/merge-two-sorted-lists/</code></p> <p>好在是有序的链表，那么我们可以创建一个头结点，然后当两个链表结点不为空时，循环遍历里面的元素，取 list1 和 list2 中较小的值，将新结点的 next 指针指向它，最后还要判断下两个结点是不是都走完了，将没走完的结点接上去就好了。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token comment">// code/leetcode/21-merge-two-sorted-lists.ts</span>
+
+<span class="token keyword">import</span> ListNode <span class="token keyword">from</span> <span class="token string">'../base/list-node'</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ *
+ * @param {ListNode} list1
+ * @param {ListNode} list2
+ * @return {ListNode | null }
+ */</span>
+<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">mergeTwoLists</span><span class="token punctuation">(</span>list1<span class="token operator">:</span> ListNode <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">,</span> list2<span class="token operator">:</span> ListNode <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token operator">:</span> ListNode <span class="token operator">|</span> <span class="token keyword">null</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> head <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> cur <span class="token operator">=</span> head<span class="token punctuation">;</span>
+  <span class="token keyword">while</span> <span class="token punctuation">(</span>list1 <span class="token operator">&amp;&amp;</span> list2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>list1<span class="token punctuation">.</span>val <span class="token operator">&lt;</span> list2<span class="token punctuation">.</span>val<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      cur<span class="token punctuation">.</span>next <span class="token operator">=</span> list1<span class="token punctuation">;</span>
+      list1 <span class="token operator">=</span> list1<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      cur<span class="token punctuation">.</span>next <span class="token operator">=</span> list2<span class="token punctuation">;</span>
+      list2 <span class="token operator">=</span> list2<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    cur <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  cur<span class="token punctuation">.</span>next <span class="token operator">=</span> list1 <span class="token operator">?</span> list1 <span class="token operator">:</span> list2<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> head<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>测试用例如下：</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token comment">// /test/code/21-merge-two-sorted-lists.test.ts</span>
+
+<span class="token keyword">import</span> ListNode <span class="token keyword">from</span> <span class="token string">'../../code/base/list-node'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> mergeTwoLists <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'../../code/leetcode/21-merge-two-sorted-lists'</span><span class="token punctuation">;</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'test function mergeTwoLists:'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'test case l1 = [], l2 = []'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> l1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> l2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> expected <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    expected<span class="token punctuation">.</span>next <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">mergeTwoLists</span><span class="token punctuation">(</span>l1<span class="token punctuation">,</span> l2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span>expected<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'test case l1 = [], l2 = [0]'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> l1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> l2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> expected <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    expected<span class="token punctuation">.</span>next <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">mergeTwoLists</span><span class="token punctuation">(</span>l1<span class="token punctuation">,</span> l2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span>expected<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'test case l1 = [1,2,4], l2 = [1,3,4]'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> l1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> l12 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> l13 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    l1<span class="token punctuation">.</span>next <span class="token operator">=</span> l12<span class="token punctuation">;</span>
+    l12<span class="token punctuation">.</span>next <span class="token operator">=</span> l13<span class="token punctuation">;</span>
+
+    <span class="token keyword">const</span> l2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> l22 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> l23 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    l2<span class="token punctuation">.</span>next <span class="token operator">=</span> l22<span class="token punctuation">;</span>
+    l22<span class="token punctuation">.</span>next <span class="token operator">=</span> l23<span class="token punctuation">;</span>
+
+    <span class="token keyword">const</span> expected <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> n1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> n2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> n3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> n4 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> n5 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ListNode</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    expected<span class="token punctuation">.</span>next <span class="token operator">=</span> n1<span class="token punctuation">;</span>
+    n1<span class="token punctuation">.</span>next <span class="token operator">=</span> n2<span class="token punctuation">;</span>
+    n2<span class="token punctuation">.</span>next <span class="token operator">=</span> n3<span class="token punctuation">;</span>
+    n3<span class="token punctuation">.</span>next <span class="token operator">=</span> n4<span class="token punctuation">;</span>
+    n4<span class="token punctuation">.</span>next <span class="token operator">=</span> n5<span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">mergeTwoLists</span><span class="token punctuation">(</span>l1<span class="token punctuation">,</span> l2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span>expected<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="链表的反转"><a href="#链表的反转" class="header-anchor">#</a> 链表的反转</h3> <p>leetcode 原题-反转链表: <code>https://leetcode-cn.com/problems/reverse-linked-list/</code></p> <p>这里就是之前我们是头朝尖的那头的冰糖葫芦串，现在要屁股朝尖的那头，实际上就是改变指针的指向，所以这里需要知道先前的结点和当前的结点，这样子循环到最后一个的话就返回，这就是我们想要的答案</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token comment">// code/leetcode/206-reverse-linked-list.ts</span>
+<span class="token keyword">import</span> ListNode <span class="token keyword">from</span> <span class="token string">'../base/list-node'</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ *
+ * @param {ListNode | null} head
+ * @return { ListNode | null}
+ */</span>
+
+<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">reverseList</span><span class="token punctuation">(</span>head<span class="token operator">:</span> ListNode <span class="token operator">|</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token operator">:</span> ListNode <span class="token operator">|</span> <span class="token keyword">null</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> pre <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> cur <span class="token operator">=</span> head<span class="token punctuation">;</span>
+  <span class="token keyword">while</span> <span class="token punctuation">(</span>cur<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> next <span class="token operator">=</span> cur<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+    cur<span class="token punctuation">.</span>next <span class="token operator">=</span> pre<span class="token punctuation">;</span>
+    pre <span class="token operator">=</span> cur<span class="token punctuation">;</span>
+    cur <span class="token operator">=</span> next<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> pre<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>测试用例如下：</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token comment">// test/leetcode/206-reverse-linked-list.test.ts</span>
+<span class="token keyword">import</span> ListNode <span class="token keyword">from</span> <span class="token string">'../../code/base/list-node'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> makeListNodes <span class="token keyword">from</span> <span class="token string">'../../code/utils/make-list-nodes'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> reverseList <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'../../code/leetcode/206-reverse-linked-list'</span><span class="token punctuation">;</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'test function reverseList:'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'test case head = [1, 2, 3, 4, 5]'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> head <span class="token operator">=</span> <span class="token function">makeListNodes</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> expected <span class="token operator">=</span> <span class="token function">makeListNodes</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">reverseList</span><span class="token punctuation">(</span>head<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span>expected<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'test case head = [1, 2]'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> head <span class="token operator">=</span> <span class="token function">makeListNodes</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> expected <span class="token operator">=</span> <span class="token function">makeListNodes</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">reverseList</span><span class="token punctuation">(</span>head<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span>expected<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'test case head = []'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> head <span class="token operator">=</span> <span class="token function">makeListNodes</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> expected <span class="token operator">=</span> <span class="token function">makeListNodes</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">reverseList</span><span class="token punctuation">(</span>head<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span>expected<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="参考文献"><a href="#参考文献" class="header-anchor">#</a> 参考文献</h2> <ul><li>维基百科 - 链表：https://zh.wikipedia.org/wiki/%E9%93%BE%E8%A1%A8</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
       <a href="/coding-ts/note/$2-array.html" class="prev">
         数组
@@ -70,6 +666,6 @@
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"><!----></div></div>
-    <script src="/coding-ts/assets/js/app.d5caf712.js" defer></script><script src="/coding-ts/assets/js/3.69454887.js" defer></script><script src="/coding-ts/assets/js/14.29d26085.js" defer></script>
+    <script src="/coding-ts/assets/js/app.b1e4881b.js" defer></script><script src="/coding-ts/assets/js/3.69454887.js" defer></script><script src="/coding-ts/assets/js/14.3ce71916.js" defer></script>
   </body>
 </html>
