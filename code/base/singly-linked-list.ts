@@ -8,7 +8,7 @@ export class SinglyLinkedList {
   }
 
   /**
-   * @description 获取链表中第 index 个节点的值。如果索引无效，则返回-1。
+   * @description 获取链表中第 index 个结点的值。如果索引无效，则返回-1。
    * @param {number} index
    * @return {number}
    */
@@ -27,7 +27,7 @@ export class SinglyLinkedList {
   }
 
   /**
-   * @description 在链表的第一个元素之前添加一个值为 val 的节点。插入后，新节点将成为链表的第一个节点。
+   * @description 在链表的第一个元素之前添加一个值为 val 的结点。插入后，新结点将成为链表的第一个结点。
    * @param {number} val
    * @return {void}
    */
@@ -39,7 +39,7 @@ export class SinglyLinkedList {
   }
 
   /**
-   * @description 将值为 val 的节点追加到链表的最后一个元素。
+   * @description 将值为 val 的结点追加到链表的最后一个元素。
    * @param {number} val
    * @return {void}
    */
@@ -54,7 +54,7 @@ export class SinglyLinkedList {
   }
 
   /**
-   * @description 在链表中的第 index 个节点之前添加值为 val  的节点。如果 index 等于链表的长度，则该节点将附加到链表的末尾。如果 index 大于链表长度，则不会插入节点。如果index小于0，则在头部插入节点。
+   * @description 在链表中的第 index 个结点之前添加值为 val  的结点。如果 index 等于链表的长度，则该结点将附加到链表的末尾。如果 index 大于链表长度，则不会插入结点。如果index小于0，则在头部插入结点。
    * @param {number} index
    * @param {number} val
    * @return {void}
@@ -79,7 +79,7 @@ export class SinglyLinkedList {
   }
 
   /**
-   * @description 如果索引 index 有效，则删除链表中的第 index 个节点。
+   * @description 如果索引 index 有效，则删除链表中的第 index 个结点。
    * @param {number} index
    * @return {void}
    */
@@ -99,10 +99,28 @@ export class SinglyLinkedList {
 
   /**
    * @description 获取整个链表
-   * @returns {void}
+   * @return {SinglyListNode}
    */
-  getLinkedList() {
+  getLinkedList(): SinglyListNode {
     return this.dummy;
+  }
+
+  /**
+   * @description 转成字符串
+   * @return {string}
+   */
+  toString(): string {
+    let res: string = '';
+    let cur: SinglyListNode | null = this.dummy.next;
+    if (!cur) {
+      return res;
+    } else {
+      while (cur) {
+        res = `${res}, ${cur.val}`;
+        cur = cur.next!;
+      }
+    }
+    return res.slice(2);
   }
 }
 
@@ -134,3 +152,11 @@ export class SinglyLinkedList {
 // https://leetcode-cn.com/submissions/detail/283015850/
 // ["MyLinkedList","addAtHead","addAtTail","addAtIndex","get","deleteAtIndex","get","get","deleteAtIndex","deleteAtIndex","get","deleteAtIndex","get"]
 // [[],[1],[3],[1,2],[1],[1],[1],[3],[3],[0],[0],[0],[0]]
+// const obj = new SinglyLinkedList();
+// const param = obj.get(0);
+// console.log('param', param);
+// obj.addAtHead(1);
+// obj.addAtTail(2);
+// obj.addAtIndex(1, 3);
+// obj.deleteAtIndex(2);
+// console.log('toString:', obj.toString());

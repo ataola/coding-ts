@@ -1,4 +1,4 @@
-import { paramsType } from './type'
+import { paramsType } from './type';
 
 /**
  * Definition for singly-linked list.

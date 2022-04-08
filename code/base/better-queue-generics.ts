@@ -1,4 +1,4 @@
-import { paramsType, stateType } from './type'
+import { paramsType, stateType } from './type';
 
 export class BetterQueue<T extends paramsType> {
   data: stateType<T>;

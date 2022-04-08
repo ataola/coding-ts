@@ -1,4 +1,4 @@
-import { paramsType } from './type'
+import { paramsType } from './type';
 /**
  * Definition for a binary tree node.
  */
@@ -26,4 +26,3 @@ export default class TreeNode<T extends paramsType> {
     this.right = right === undefined ? null : right;
   }
 }
-
