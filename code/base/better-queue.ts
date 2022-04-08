@@ -1,4 +1,4 @@
-import { objectNumberType } from './type.ts';
+import { objectNumberType } from './type';
 
 export class BetterQueue {
   data: objectNumberType;
