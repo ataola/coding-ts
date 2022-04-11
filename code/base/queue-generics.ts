@@ -68,7 +68,7 @@ export class Queue<T extends paramsType> {
     for (let i = 0; i < this.length; i++) {
       str = `${str}, ${this.data[this.head + i]}`;
     }
-    return str;
+    return str.slice(2);
   }
 
   /**

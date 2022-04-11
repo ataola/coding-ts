@@ -66,7 +66,7 @@ export class Queue {
     for (let i = 0; i < this.length; i++) {
       str = `${str}, ${this.data[this.head + i]}`;
     }
-    return str;
+    return str.slice(2);
   }
 
   /**
