@@ -1,4 +1,4 @@
-import { paramsType } from './type';
+type paramsType = string | number;
 
 export class MyHashSet<T extends paramsType> {
   set: any;
@@ -12,8 +12,8 @@ export class MyHashSet<T extends paramsType> {
    * @return {void}
    */
   add(key: T): void {
-    if (!this.set[key]) {
-      this.set[key] = 1;
+    if (!this.contains(key)) {
+      this.set[key] = key;
     }
   }
 
@@ -32,7 +32,98 @@ export class MyHashSet<T extends paramsType> {
    * @return {boolean}
    */
   contains(key: T): boolean {
-    return this.set[key] ? true : false;
+    return Object.prototype.hasOwnProperty.call(this.set, key);
+  }
+
+  /**
+   * @description 移除哈希集合中的所有元素
+   * @return {void}
+   */
+  clear(): void {
+    this.set = {};
+  }
+
+  /**
+   * @description 返回哈希集合中元素的数量
+   * @return {number}
+   */
+  size(): number {
+    return Object.keys(this.set).length;
+  }
+
+  /**
+   * @description 返回包含哈希集合元素的数组
+   * @return {T[]}
+   */
+  values(): T[] {
+    return Object.values(this.set);
+  }
+
+  /**
+   * @description 并集
+   * @param {MyHashSet} otherSet
+   * @return {MyHashSet<T>}
+   */
+  union(otherSet: MyHashSet<T>) {
+    const unionSet = new MyHashSet<T>();
+    for (const value of [...this.values(), ...otherSet.values()]) {
+      unionSet.add(value);
+    }
+    return unionSet;
+  }
+
+  /**
+   * @description 交集
+   * @param {MyHashSet} otherSet
+   * @return {MyHashSet<T>}
+   */
+  intersection(otherSet: MyHashSet<T>) {
+    const intersectionSet = new MyHashSet<T>();
+    let bigValues = this.values();
+    let smallValues = otherSet.values();
+    if (bigValues.length < smallValues.length) {
+      [smallValues, bigValues] = [bigValues, smallValues];
+    }
+    for (const value of smallValues) {
+      if (bigValues.includes(value)) {
+        intersectionSet.add(value);
+      }
+    }
+    return intersectionSet;
+  }
+
+  /**
+   * @description 差集
+   * @param {MyHashSet} otherSet
+   * @return {MyHashSet}
+   */
+  difference(otherSet: MyHashSet<T>) {
+    const differenceSet = new MyHashSet<T>();
+    for (const value of this.values()) {
+      if (!otherSet.contains(value)) {
+        differenceSet.add(value);
+      }
+    }
+    return differenceSet;
+  }
+
+  /**
+   * @description 子集
+   * @param {MyHashSet} otherSet
+   * @return {boolean}
+   */
+  isSubSetOf(otherSet: MyHashSet<T>): boolean {
+    if (this.size() > otherSet.size()) {
+      return false;
+    }
+    let res = true;
+    for (const value of this.values()) {
+      if (!this.contains(value)) {
+        res = false;
+        break;
+      }
+    }
+    return res;
   }
 }
 
