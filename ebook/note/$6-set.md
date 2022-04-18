@@ -59,7 +59,7 @@ export class MyHashSet {
  */
 ```
 
-因为比较简单就不分开讲了，首先我们新建一个对象去存储集合的元素，如果不存在的话，就设置这个对象对应的属性值为 1，删除直接调用 delete，包含的话调用 Object 的 hasOwnProperty 方法。清空的话赋值给一个`{}`对象即可，获取元素和长度可以借助在 Object 中`Object.keys`和`Object.values`实现。这里因为返回值的 API 都设置成`void`代码会少几句，读者可以思考下设置成`boolean`类型的访问又是如何实现的。
+因为比较简单就不分开讲了，首先我们新建一个对象去存储集合的元素，如果不存在的话，就设置这个对象对应的属性值为其本身，删除直接调用 delete，包含的话调用 Object 的 hasOwnProperty 方法。清空的话赋值给一个`{}`对象即可，获取元素和长度可以借助在 Object 中`Object.keys`和`Object.values`实现。这里因为返回值的 API 都设置成`void`代码会少几句，读者可以思考下设置成`boolean`类型的访问又是如何实现的。
 
 ```typescript
 export class MyHashSet {
