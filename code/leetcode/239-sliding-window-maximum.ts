@@ -92,8 +92,8 @@
  * @return {number[]}
  */
 export default function maxSlidingWindow(nums: number[], k: number): number[] {
-  let res: number[] = [];
-  let queue: number[] = [];
+  const res: number[] = [];
+  const queue: number[] = [];
   for (let i = 0; i < nums.length; i++) {
     while (queue.length && nums[queue[queue.length - 1]] < nums[i]) {
       queue.pop();

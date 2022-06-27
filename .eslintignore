@@ -1,0 +1,6 @@
+dist
+node_modules
+.prettierrc
+jest.config.js
+babel.config.js
+commitlint.config.js

@@ -58,5 +58,22 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // 终端光标显示为线
-  "terminal.integrated.cursorStyle": "line"
+  "terminal.integrated.cursorStyle": "line",
+  "search.exclude": {
+    "/node_modules": true,
+    "/dist": true,
+    "**/*/lib": true,
+    "/package.json": true,
+    "/pnpm-lock.yaml": true,
+    "**/*/*.min.js": true
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/node_modules": true,
+    "dist": true
+  }
 }

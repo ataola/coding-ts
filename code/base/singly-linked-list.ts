@@ -54,7 +54,7 @@ export class SinglyLinkedList {
   }
 
   /**
-   * @description 在链表中的第 index 个结点之前添加值为 val  的结点。如果 index 等于链表的长度，则该结点将附加到链表的末尾。如果 index 大于链表长度，则不会插入结点。如果index小于0，则在头部插入结点。
+   * @description 在链表中的第 index 个结点之前添加值为 val  的结点。如果 index 等于链表的长度，则该结点将附加到链表的末尾。如果 index 大于链表长度，则不会插入结点。如果index小于0，则在头部插入结点。
    * @param {number} index
    * @param {number} val
    * @return {void}
@@ -110,7 +110,7 @@ export class SinglyLinkedList {
    * @return {string}
    */
   toString(): string {
-    let res: string = '';
+    let res = '';
     let cur: SinglyListNode | null = this.dummy.next;
     if (!cur) {
       return res;

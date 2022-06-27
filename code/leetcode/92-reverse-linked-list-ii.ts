@@ -18,12 +18,12 @@ export function reverseBetween(head: ListNode | null, left: number, right: numbe
   }
   leftHead = p;
 
-  let start = leftHead.next as ListNode;
+  const start = leftHead.next as ListNode;
   pre = start;
   cur = (pre as ListNode).next as ListNode;
 
   for (let i = left; i < right; i++) {
-    let next = cur.next as ListNode;
+    const next = cur.next as ListNode;
     cur.next = pre;
     pre = cur;
     cur = next;

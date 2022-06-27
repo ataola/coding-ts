@@ -1,4 +1,4 @@
-import { defaultToString } from '../utils/helper';
+import { defaultToString, TFunc2String } from '../utils/helper';
 import { loseloseHashCode } from '../utils/hash';
 
 class ValuePair {
@@ -16,7 +16,7 @@ class ValuePair {
 
 export class HashTable {
   table: any;
-  toStrFn: Function;
+  toStrFn: TFunc2String;
 
   constructor(toStrFn = defaultToString) {
     this.toStrFn = toStrFn;
@@ -145,7 +145,7 @@ export class HashTable {
     }
 
     const keys = this.keys();
-    let res: string = `{${keys[0]} => ${this.table[keys[0]].toString()}}`;
+    let res = `{${keys[0]} => ${this.table[keys[0]].toString()}}`;
     for (let i = 1; i < keys.length; i++) {
       res = `${res}, {${keys[i]} => ${this.table[keys[i]].toString()}}`;
     }

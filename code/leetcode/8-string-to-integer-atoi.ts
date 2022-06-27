@@ -6,7 +6,7 @@
  * @return { number }
  */
 export function myAtoi(s: string): number {
-  const reg = /\s*([-\+]?[0-9]*).*/;
+  const reg = /\s*([-+]?[0-9]*).*/;
   const groups = s.match(reg);
   // 没仔细看题目 用这个题目要求是 2^32那个区间，唉偷懒都不让
   // const max = Number.MAX_SAFE_INTEGER;

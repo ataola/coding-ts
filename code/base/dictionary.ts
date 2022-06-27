@@ -1,4 +1,4 @@
-import { defaultToString } from '../utils/helper';
+import { defaultToString, TFunc2String } from '../utils/helper';
 
 class ValuePair {
   key: string;
@@ -15,7 +15,7 @@ class ValuePair {
 
 export class Dictionary {
   table: any;
-  toStrFn: Function;
+  toStrFn: TFunc2String;
 
   constructor(toStrFn = defaultToString) {
     this.toStrFn = toStrFn;
@@ -128,7 +128,7 @@ export class Dictionary {
    * @param callbackFn
    * @return {void}
    */
-  forEach(callbackFn: Function): void {
+  forEach(callbackFn: TFunc2String): void {
     const valuePairs = this.keyValues();
     for (let i = 0; i < valuePairs.length; i++) {
       const result = callbackFn(valuePairs[i].key, valuePairs[i].value);
@@ -148,7 +148,7 @@ export class Dictionary {
     }
 
     const valuePairs = this.keyValues();
-    let res: string = `${valuePairs[0].toString()}`;
+    let res = `${valuePairs[0].toString()}`;
     for (let i = 1; i < valuePairs.length; i++) {
       res = `${res}, ${valuePairs[i].toString()}`;
     }
