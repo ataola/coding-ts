@@ -2,9 +2,9 @@
 import sum from '../code/sum';
 
 test('1 + 2 = 3', () => {
-  let x: number = 1,
-    y: number = 2;
-  let expected: number = 3;
+  let x = 1,
+    y = 2;
+  let expected = 3;
 
   let res: number = sum(x, y);
 

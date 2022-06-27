@@ -1,6 +1,5 @@
 // test/leetcode/19-remove-nth-node-from-end-of-list.test.ts
 
-import ListNode from '../../code/base/list-node';
 import makeListNodes from '../../code/utils/make-list-nodes';
 import { removeNthFromEnd } from '../../code/leetcode/19-remove-nth-node-from-end-of-list';
 

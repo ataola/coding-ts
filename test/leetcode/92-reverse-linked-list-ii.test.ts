@@ -1,5 +1,4 @@
 // test/leetcode/92-reverse-linked-list-ii.test.ts
-import ListNode from '../../code/base/list-node';
 import makeListNodes from '../../code/utils/make-list-nodes';
 import { reverseBetween } from '../../code/leetcode/92-reverse-linked-list-ii';
 

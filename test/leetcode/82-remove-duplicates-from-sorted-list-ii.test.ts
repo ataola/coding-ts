@@ -1,5 +1,4 @@
 // test/leetcode/82-remove-duplicates-from-sorted-list-ii.test.ts
-import ListNode from '../../code/base/list-node';
 import makeListNodes from '../../code/utils/make-list-nodes';
 import { deleteDuplicates } from '../../code/leetcode/82-remove-duplicates-from-sorted-list-ii';
 
