@@ -1,5 +1,5 @@
 {
-  "name": "coding-ts",
+  "name": "@ataola/coding-ts",
   "version": "1.0.1",
   "description": "a coding example reposity with typescript",
   "main": "jest.config.js",
