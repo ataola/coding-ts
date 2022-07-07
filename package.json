@@ -1,6 +1,6 @@
 {
   "name": "coding-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a coding example reposity with typescript",
   "main": "jest.config.js",
   "directories": {
@@ -27,6 +27,9 @@
     "start": "concurrently \"npm run pretty:code\" \"npm run pretty:test\" \"npm run test:coverage\"",
     "ebook:dev": "vuepress dev ebook",
     "ebook:build": "vuepress build ebook"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
